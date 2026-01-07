@@ -1,0 +1,17 @@
+Analytical Assumptions Summary
+
+1. Dataset Scope
+- Analysis based on publicly available motor insurance claims dataset (Mendeley).
+- No health insurance claims included.
+
+2. Policy Coverage Encoding
+- policy_csl stored as categorical ranges (e.g., 250/500).
+- Coverage indicator treated as risk signal, not confirmed breach.
+
+3. Leakage Detection Philosophy
+- Conservative rule-based approach applied.
+- Objective: minimize false positives rather than maximize findings.
+
+4. Result Interpretation
+- Zero detected leakage interpreted as effective control under current rules.
+- Absence of leakage does not imply absence of risk.

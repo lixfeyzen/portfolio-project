@@ -1,0 +1,1001 @@
+claim_id,collision_type,incident_severity,total_claim_amount,coverage_breach_flag,severity_cost_mismatch_flag,potential_leakage_amount
+1,Side Collision,Major Damage,71610,1,0,0.0
+2,?,Minor Damage,5070,1,0,0.0
+3,Rear Collision,Minor Damage,34650,1,0,0.0
+4,Front Collision,Major Damage,63400,1,0,0.0
+5,?,Minor Damage,6500,1,0,0.0
+6,Rear Collision,Major Damage,64100,1,0,0.0
+7,Front Collision,Minor Damage,78650,1,0,0.0
+8,Front Collision,Total Loss,51590,1,0,0.0
+9,Front Collision,Total Loss,27700,1,0,0.0
+10,Rear Collision,Total Loss,42300,1,0,0.0
+11,Front Collision,Total Loss,87010,1,0,0.0
+12,Front Collision,Major Damage,114920,1,0,0.0
+13,Rear Collision,Total Loss,56520,1,0,0.0
+14,?,Minor Damage,7280,1,0,0.0
+15,Rear Collision,Total Loss,46200,1,0,0.0
+16,Side Collision,Major Damage,63120,1,0,0.0
+17,Rear Collision,Major Damage,52110,1,0,0.0
+18,Side Collision,Total Loss,77880,1,0,0.0
+19,Side Collision,Total Loss,72930,1,0,0.0
+20,Side Collision,Major Damage,60400,1,0,0.0
+21,Rear Collision,Minor Damage,47160,1,0,0.0
+22,Side Collision,Total Loss,37840,1,0,0.0
+23,Rear Collision,Major Damage,71520,1,0,0.0
+24,Front Collision,Total Loss,98160,1,0,0.0
+25,Rear Collision,Minor Damage,77880,1,0,0.0
+26,Rear Collision,Major Damage,71500,1,0,0.0
+27,?,Minor Damage,9020,1,0,0.0
+28,?,Minor Damage,5720,1,0,0.0
+29,Side Collision,Minor Damage,69840,1,0,0.0
+30,Rear Collision,Minor Damage,91650,1,0,0.0
+31,Side Collision,Major Damage,75600,1,0,0.0
+32,Side Collision,Major Damage,67140,1,0,0.0
+33,Front Collision,Total Loss,29790,1,0,0.0
+34,Front Collision,Major Damage,77110,1,0,0.0
+35,Side Collision,Total Loss,64800,1,0,0.0
+36,Front Collision,Major Damage,53100,1,0,0.0
+37,Rear Collision,Total Loss,60200,1,0,0.0
+38,?,Minor Damage,5330,1,0,0.0
+39,Rear Collision,Major Damage,62300,1,0,0.0
+40,Front Collision,Major Damage,60170,1,0,0.0
+41,Rear Collision,Minor Damage,40000,1,0,0.0
+42,Side Collision,Major Damage,97080,1,0,0.0
+43,Side Collision,Minor Damage,51660,1,0,0.0
+44,Rear Collision,Total Loss,51120,1,0,0.0
+45,Front Collision,Minor Damage,56400,1,0,0.0
+46,Rear Collision,Total Loss,55120,1,0,0.0
+47,Rear Collision,Total Loss,77110,1,0,0.0
+48,Front Collision,Major Damage,62800,1,0,0.0
+49,?,Trivial Damage,7290,1,0,0.0
+50,Rear Collision,Total Loss,76600,1,0,0.0
+51,Front Collision,Minor Damage,81800,1,0,0.0
+52,?,Trivial Damage,7260,1,0,0.0
+53,?,Minor Damage,4300,1,0,0.0
+54,Side Collision,Major Damage,70510,1,0,0.0
+55,?,Minor Damage,2640,1,0,0.0
+56,Rear Collision,Minor Damage,78900,1,0,0.0
+57,Front Collision,Major Damage,56430,1,0,0.0
+58,?,Minor Damage,2400,1,0,0.0
+59,Front Collision,Total Loss,65790,1,0,0.0
+60,Side Collision,Minor Damage,62920,1,0,0.0
+61,Rear Collision,Major Damage,69480,1,0,0.0
+62,Side Collision,Total Loss,44280,1,0,0.0
+63,Side Collision,Minor Damage,56300,1,0,0.0
+64,Front Collision,Major Damage,68520,1,0,0.0
+65,Rear Collision,Total Loss,59130,1,0,0.0
+66,Front Collision,Minor Damage,82320,1,0,0.0
+67,Side Collision,Minor Damage,89700,1,0,0.0
+68,Side Collision,Minor Damage,33930,1,0,0.0
+69,Front Collision,Major Damage,68530,1,0,0.0
+70,?,Minor Damage,4300,1,0,0.0
+71,Side Collision,Major Damage,68310,1,0,0.0
+72,Front Collision,Total Loss,61290,1,0,0.0
+73,Rear Collision,Minor Damage,30100,1,0,0.0
+74,Rear Collision,Minor Damage,57120,1,0,0.0
+75,Side Collision,Minor Damage,42930,1,0,0.0
+76,Front Collision,Total Loss,51210,1,0,0.0
+77,Front Collision,Minor Damage,89400,1,0,0.0
+78,Front Collision,Total Loss,59730,1,0,0.0
+79,?,Minor Damage,8060,1,0,0.0
+80,Rear Collision,Major Damage,72200,1,0,0.0
+81,Side Collision,Minor Damage,50800,1,0,0.0
+82,?,Trivial Damage,6600,1,0,0.0
+83,?,Minor Damage,7500,1,0,0.0
+84,?,Trivial Damage,6490,1,0,0.0
+85,Side Collision,Major Damage,60940,1,0,0.0
+86,Front Collision,Major Damage,58300,1,0,0.0
+87,Front Collision,Minor Damage,68400,1,0,0.0
+88,Side Collision,Total Loss,64240,1,0,0.0
+89,?,Trivial Damage,4700,1,0,0.0
+90,Side Collision,Major Damage,45120,1,0,0.0
+91,Front Collision,Total Loss,66950,1,0,0.0
+92,Side Collision,Major Damage,98340,1,0,0.0
+93,?,Trivial Damage,5900,1,0,0.0
+94,Front Collision,Major Damage,70680,1,0,0.0
+95,Rear Collision,Total Loss,93720,1,0,0.0
+96,?,Minor Damage,6930,1,0,0.0
+97,Side Collision,Major Damage,72930,1,0,0.0
+98,Rear Collision,Minor Damage,64890,1,0,0.0
+99,?,Trivial Damage,5400,1,0,0.0
+100,?,Trivial Damage,5600,1,0,0.0
+101,Rear Collision,Minor Damage,79300,1,0,0.0
+102,Side Collision,Major Damage,52800,1,0,0.0
+103,Front Collision,Minor Damage,28800,1,0,0.0
+104,?,Minor Damage,2970,1,0,0.0
+105,Side Collision,Total Loss,93480,1,0,0.0
+106,?,Minor Damage,4320,1,0,0.0
+107,Rear Collision,Major Damage,79800,1,0,0.0
+108,Front Collision,Major Damage,74200,1,0,0.0
+109,Front Collision,Major Damage,70590,1,0,0.0
+110,Rear Collision,Major Damage,60940,1,0,0.0
+111,Rear Collision,Minor Damage,74700,1,0,0.0
+112,Front Collision,Major Damage,70000,1,0,0.0
+113,Rear Collision,Total Loss,81070,1,0,0.0
+114,Side Collision,Major Damage,57720,1,0,0.0
+115,?,Minor Damage,7080,1,0,0.0
+116,Side Collision,Total Loss,47700,1,0,0.0
+117,Rear Collision,Minor Damage,51260,1,0,0.0
+118,Side Collision,Major Damage,70400,1,0,0.0
+119,Rear Collision,Minor Damage,90000,1,0,0.0
+120,Rear Collision,Minor Damage,72820,1,0,0.0
+121,Side Collision,Minor Damage,69300,1,0,0.0
+122,Front Collision,Major Damage,76560,1,0,0.0
+123,Front Collision,Major Damage,55440,1,0,0.0
+124,Front Collision,Total Loss,77130,1,0,0.0
+125,Rear Collision,Total Loss,42000,1,0,0.0
+126,Rear Collision,Total Loss,36300,1,0,0.0
+127,Side Collision,Total Loss,40320,1,0,0.0
+128,?,Minor Damage,3960,1,0,0.0
+129,Front Collision,Major Damage,63840,1,0,0.0
+130,Front Collision,Major Damage,44730,1,0,0.0
+131,Front Collision,Minor Damage,84720,1,0,0.0
+132,Front Collision,Major Damage,61500,1,0,0.0
+133,Front Collision,Major Damage,51000,1,0,0.0
+134,Side Collision,Total Loss,46800,1,0,0.0
+135,Side Collision,Minor Damage,78120,1,0,0.0
+136,Rear Collision,Major Damage,69200,1,0,0.0
+137,?,Minor Damage,3690,1,0,0.0
+138,Rear Collision,Minor Damage,65500,1,0,0.0
+139,Rear Collision,Minor Damage,76120,1,0,0.0
+140,Front Collision,Total Loss,73560,1,0,0.0
+141,Rear Collision,Total Loss,52030,1,0,0.0
+142,?,Trivial Damage,5170,1,0,0.0
+143,?,Minor Damage,8190,1,0,0.0
+144,Rear Collision,Major Damage,70800,1,0,0.0
+145,Rear Collision,Total Loss,45630,1,0,0.0
+146,Front Collision,Major Damage,99320,1,0,0.0
+147,Side Collision,Major Damage,64000,1,0,0.0
+148,Front Collision,Minor Damage,47300,1,0,0.0
+149,Rear Collision,Major Damage,71680,1,0,0.0
+150,Side Collision,Major Damage,112320,1,0,0.0
+151,Side Collision,Total Loss,82720,1,0,0.0
+152,Rear Collision,Major Damage,48060,1,0,0.0
+153,Rear Collision,Total Loss,63570,1,0,0.0
+154,Rear Collision,Total Loss,63240,1,0,0.0
+155,Rear Collision,Minor Damage,54240,1,0,0.0
+156,Front Collision,Major Damage,37280,1,0,0.0
+157,Rear Collision,Minor Damage,72100,1,0,0.0
+158,?,Minor Damage,6500,1,0,0.0
+159,Front Collision,Total Loss,78240,1,0,0.0
+160,?,Minor Damage,6200,1,0,0.0
+161,?,Minor Damage,6160,1,0,0.0
+162,Front Collision,Total Loss,76050,1,0,0.0
+163,Side Collision,Total Loss,86060,1,0,0.0
+164,Front Collision,Major Damage,107900,1,0,0.0
+165,Rear Collision,Total Loss,99990,1,0,0.0
+166,Side Collision,Minor Damage,61380,1,0,0.0
+167,Rear Collision,Major Damage,71280,1,0,0.0
+168,Front Collision,Minor Damage,64000,1,0,0.0
+169,?,Trivial Damage,5940,1,0,0.0
+170,?,Minor Damage,6700,1,0,0.0
+171,Rear Collision,Minor Damage,51740,1,0,0.0
+172,Rear Collision,Total Loss,53600,1,0,0.0
+173,Rear Collision,Total Loss,44910,1,0,0.0
+174,Front Collision,Major Damage,48100,1,0,0.0
+175,?,Trivial Damage,6100,1,0,0.0
+176,Rear Collision,Minor Damage,79600,1,0,0.0
+177,Front Collision,Minor Damage,77040,1,0,0.0
+178,Rear Collision,Minor Damage,62590,1,0,0.0
+179,Front Collision,Total Loss,85150,1,0,0.0
+180,?,Trivial Damage,4950,1,0,0.0
+181,Side Collision,Major Damage,51100,1,0,0.0
+182,Side Collision,Minor Damage,100800,1,0,0.0
+183,Side Collision,Total Loss,90970,1,0,0.0
+184,Rear Collision,Minor Damage,81840,1,0,0.0
+185,Front Collision,Major Damage,54900,1,0,0.0
+186,Front Collision,Total Loss,88660,1,0,0.0
+187,Front Collision,Total Loss,18000,1,0,0.0
+188,?,Minor Damage,5500,1,0,0.0
+189,Rear Collision,Major Damage,73920,1,0,0.0
+190,Rear Collision,Total Loss,101860,1,0,0.0
+191,?,Minor Damage,5390,1,0,0.0
+192,Side Collision,Minor Damage,50490,1,0,0.0
+193,Front Collision,Total Loss,55500,1,0,0.0
+194,?,Minor Damage,7040,1,0,0.0
+195,Rear Collision,Total Loss,40160,1,0,0.0
+196,Side Collision,Total Loss,55680,1,0,0.0
+197,?,Trivial Damage,5300,1,0,0.0
+198,?,Trivial Damage,5200,1,0,0.0
+199,Front Collision,Major Damage,59400,1,0,0.0
+200,?,Minor Damage,2520,1,0,0.0
+201,?,Trivial Damage,5760,1,0,0.0
+202,Rear Collision,Minor Damage,76700,1,0,0.0
+203,?,Trivial Damage,5920,1,0,0.0
+204,Rear Collision,Major Damage,64350,1,0,0.0
+205,Rear Collision,Total Loss,19080,1,0,0.0
+206,Rear Collision,Minor Damage,54400,1,0,0.0
+207,Rear Collision,Total Loss,59800,1,0,0.0
+208,Side Collision,Major Damage,72000,1,0,0.0
+209,Side Collision,Total Loss,65070,1,0,0.0
+210,?,Trivial Damage,8800,1,0,0.0
+211,?,Minor Damage,6120,1,0,0.0
+212,?,Trivial Damage,7080,1,0,0.0
+213,Side Collision,Minor Damage,34320,1,0,0.0
+214,Side Collision,Major Damage,53460,1,0,0.0
+215,Side Collision,Total Loss,81360,1,0,0.0
+216,Side Collision,Minor Damage,81070,1,0,0.0
+217,Front Collision,Minor Damage,63120,1,0,0.0
+218,?,Trivial Damage,7200,1,0,0.0
+219,Rear Collision,Total Loss,70290,1,0,0.0
+220,Side Collision,Minor Damage,60190,1,0,0.0
+221,Front Collision,Major Damage,61380,1,0,0.0
+222,Front Collision,Minor Damage,28100,1,0,0.0
+223,Side Collision,Total Loss,49060,1,0,0.0
+224,Side Collision,Total Loss,57060,1,0,0.0
+225,Side Collision,Major Damage,77880,1,0,0.0
+226,Front Collision,Total Loss,73500,1,0,0.0
+227,Rear Collision,Minor Damage,88920,1,0,0.0
+228,Front Collision,Major Damage,47630,1,0,0.0
+229,Front Collision,Total Loss,59040,1,0,0.0
+230,Rear Collision,Minor Damage,79530,1,0,0.0
+231,Side Collision,Total Loss,53680,1,0,0.0
+232,Side Collision,Minor Damage,33550,1,0,0.0
+233,Side Collision,Total Loss,69100,1,0,0.0
+234,Rear Collision,Major Damage,79750,1,0,0.0
+235,Front Collision,Major Damage,53600,1,0,0.0
+236,Side Collision,Minor Damage,76560,1,0,0.0
+237,Front Collision,Total Loss,41130,1,0,0.0
+238,Rear Collision,Total Loss,78650,1,0,0.0
+239,Side Collision,Major Damage,71060,1,0,0.0
+240,Front Collision,Minor Damage,38830,1,0,0.0
+241,Front Collision,Major Damage,53500,1,0,0.0
+242,Front Collision,Major Damage,73700,1,0,0.0
+243,?,Trivial Damage,6300,1,0,0.0
+244,Rear Collision,Total Loss,65400,1,0,0.0
+245,?,Trivial Damage,3200,1,0,0.0
+246,Rear Collision,Major Damage,75400,1,0,0.0
+247,Side Collision,Minor Damage,58140,1,0,0.0
+248,Rear Collision,Total Loss,98670,1,0,0.0
+249,?,Minor Damage,5900,1,0,0.0
+250,Rear Collision,Major Damage,64100,1,0,0.0
+251,Rear Collision,Total Loss,55440,1,0,0.0
+252,Side Collision,Major Damage,80850,1,0,0.0
+253,?,Trivial Damage,7480,1,0,0.0
+254,Side Collision,Major Damage,53640,1,0,0.0
+255,Rear Collision,Major Damage,63250,1,0,0.0
+256,Side Collision,Major Damage,59040,1,0,0.0
+257,Side Collision,Total Loss,50500,1,0,0.0
+258,Side Collision,Major Damage,57690,1,0,0.0
+259,?,Trivial Damage,5940,1,0,0.0
+260,Rear Collision,Major Damage,47790,1,0,0.0
+261,?,Trivial Damage,3850,1,0,0.0
+262,Front Collision,Major Damage,59000,1,0,0.0
+263,Rear Collision,Major Damage,70600,1,0,0.0
+264,Side Collision,Minor Damage,61490,1,0,0.0
+265,Side Collision,Minor Damage,57640,1,0,0.0
+266,?,Trivial Damage,6890,1,0,0.0
+267,Side Collision,Major Damage,53280,1,0,0.0
+268,Rear Collision,Minor Damage,78300,1,0,0.0
+269,Rear Collision,Major Damage,41490,1,0,0.0
+270,Front Collision,Total Loss,68970,1,0,0.0
+271,Rear Collision,Minor Damage,85300,1,0,0.0
+272,?,Minor Damage,3080,1,0,0.0
+273,Front Collision,Major Damage,71760,1,0,0.0
+274,Rear Collision,Minor Damage,59700,1,0,0.0
+275,Front Collision,Minor Damage,64920,1,0,0.0
+276,Front Collision,Major Damage,37530,1,0,0.0
+277,Side Collision,Total Loss,64080,1,0,0.0
+278,Rear Collision,Minor Damage,60390,1,0,0.0
+279,Side Collision,Major Damage,64350,1,0,0.0
+280,Side Collision,Minor Damage,70900,1,0,0.0
+281,Side Collision,Minor Damage,46560,1,0,0.0
+282,?,Trivial Damage,4730,1,0,0.0
+283,?,Minor Damage,6820,1,0,0.0
+284,Rear Collision,Major Damage,59900,1,0,0.0
+285,Side Collision,Major Damage,79560,1,0,0.0
+286,Front Collision,Total Loss,70290,1,0,0.0
+287,Rear Collision,Total Loss,63910,1,0,0.0
+288,?,Trivial Damage,6400,1,0,0.0
+289,Rear Collision,Major Damage,66780,1,0,0.0
+290,?,Minor Damage,8760,1,0,0.0
+291,Side Collision,Major Damage,94160,1,0,0.0
+292,Front Collision,Total Loss,51570,1,0,0.0
+293,Rear Collision,Major Damage,52700,1,0,0.0
+294,Side Collision,Minor Damage,101010,1,0,0.0
+295,Rear Collision,Minor Damage,53400,1,0,0.0
+296,Side Collision,Total Loss,72120,1,0,0.0
+297,Front Collision,Minor Damage,77100,1,0,0.0
+298,?,Trivial Damage,3300,1,0,0.0
+299,?,Minor Damage,5940,1,0,0.0
+300,Rear Collision,Major Damage,63720,1,0,0.0
+301,?,Trivial Damage,7680,1,0,0.0
+302,Side Collision,Total Loss,93730,1,0,0.0
+303,Rear Collision,Major Damage,87300,1,0,0.0
+304,?,Trivial Damage,5670,1,0,0.0
+305,Rear Collision,Minor Damage,65800,1,0,0.0
+306,Front Collision,Major Damage,36720,1,0,0.0
+307,Side Collision,Major Damage,52800,1,0,0.0
+308,Rear Collision,Total Loss,59100,1,0,0.0
+309,Rear Collision,Total Loss,77440,1,0,0.0
+310,Side Collision,Total Loss,45700,1,0,0.0
+311,Rear Collision,Major Damage,80740,1,0,0.0
+312,Front Collision,Major Damage,31350,1,0,0.0
+313,Side Collision,Total Loss,35000,1,0,0.0
+314,Side Collision,Total Loss,68000,1,0,0.0
+315,Side Collision,Minor Damage,84500,1,0,0.0
+316,Rear Collision,Minor Damage,75500,1,0,0.0
+317,Side Collision,Total Loss,90600,1,0,0.0
+318,Side Collision,Total Loss,64320,1,0,0.0
+319,Rear Collision,Minor Damage,31700,1,0,0.0
+320,Side Collision,Major Damage,74280,1,0,0.0
+321,Front Collision,Total Loss,80520,1,0,0.0
+322,Rear Collision,Major Damage,63600,1,0,0.0
+323,Front Collision,Total Loss,32800,1,0,0.0
+324,Rear Collision,Total Loss,44190,1,0,0.0
+325,Rear Collision,Major Damage,50400,1,0,0.0
+326,Side Collision,Total Loss,88400,1,0,0.0
+327,Front Collision,Total Loss,66550,1,0,0.0
+328,Rear Collision,Minor Damage,65780,1,0,0.0
+329,Side Collision,Major Damage,51810,1,0,0.0
+330,Front Collision,Major Damage,55660,1,0,0.0
+331,Side Collision,Major Damage,44640,1,0,0.0
+332,Front Collision,Major Damage,77660,1,0,0.0
+333,?,Trivial Damage,5640,1,0,0.0
+334,?,Trivial Damage,3190,1,0,0.0
+335,Side Collision,Total Loss,53440,1,0,0.0
+336,Rear Collision,Minor Damage,65250,1,0,0.0
+337,Side Collision,Minor Damage,44280,1,0,0.0
+338,Rear Collision,Total Loss,70290,1,0,0.0
+339,Front Collision,Minor Damage,87100,1,0,0.0
+340,Front Collision,Total Loss,50380,1,0,0.0
+341,Side Collision,Total Loss,64800,1,0,0.0
+342,Rear Collision,Minor Damage,70400,1,0,0.0
+343,Rear Collision,Major Damage,57860,1,0,0.0
+344,?,Minor Damage,6240,1,0,0.0
+345,Rear Collision,Total Loss,66600,1,0,0.0
+346,Side Collision,Minor Damage,70920,1,0,0.0
+347,Rear Collision,Minor Damage,39480,1,0,0.0
+348,Front Collision,Total Loss,63240,1,0,0.0
+349,Side Collision,Total Loss,67650,1,0,0.0
+350,Front Collision,Major Damage,74200,1,0,0.0
+351,Side Collision,Minor Damage,64900,1,0,0.0
+352,Rear Collision,Major Damage,35900,1,0,0.0
+353,Rear Collision,Minor Damage,52200,1,0,0.0
+354,Front Collision,Minor Damage,78000,1,0,0.0
+355,Front Collision,Minor Damage,67200,1,0,0.0
+356,Rear Collision,Total Loss,63250,1,0,0.0
+357,Side Collision,Major Damage,68760,1,0,0.0
+358,Side Collision,Minor Damage,65040,1,0,0.0
+359,Side Collision,Major Damage,82800,1,0,0.0
+360,Side Collision,Total Loss,61700,1,0,0.0
+361,Rear Collision,Major Damage,78100,1,0,0.0
+362,Rear Collision,Major Damage,65520,1,0,0.0
+363,?,Trivial Damage,4500,1,0,0.0
+364,Side Collision,Major Damage,42700,1,0,0.0
+365,?,Minor Damage,5580,1,0,0.0
+366,?,Minor Damage,3600,1,0,0.0
+367,?,Trivial Damage,2800,1,0,0.0
+368,Front Collision,Minor Damage,54000,1,0,0.0
+369,Side Collision,Minor Damage,48950,1,0,0.0
+370,Rear Collision,Major Damage,77800,1,0,0.0
+371,Front Collision,Major Damage,52560,1,0,0.0
+372,Side Collision,Total Loss,44110,1,0,0.0
+373,Front Collision,Total Loss,74360,1,0,0.0
+374,?,Minor Damage,6120,1,0,0.0
+375,Side Collision,Minor Damage,62280,1,0,0.0
+376,Front Collision,Total Loss,26730,1,0,0.0
+377,Rear Collision,Major Damage,66200,1,0,0.0
+378,Side Collision,Total Loss,45500,1,0,0.0
+379,Side Collision,Minor Damage,53040,1,0,0.0
+380,Front Collision,Major Damage,50800,1,0,0.0
+381,Side Collision,Total Loss,44200,1,0,0.0
+382,Front Collision,Minor Damage,62920,1,0,0.0
+383,Rear Collision,Minor Damage,49950,1,0,0.0
+384,Rear Collision,Minor Damage,56430,1,0,0.0
+385,Front Collision,Minor Damage,100210,1,0,0.0
+386,Front Collision,Minor Damage,49140,1,0,0.0
+387,Side Collision,Major Damage,66840,1,0,0.0
+388,Front Collision,Total Loss,62460,1,0,0.0
+389,Side Collision,Total Loss,62810,1,0,0.0
+390,Front Collision,Major Damage,54160,1,0,0.0
+391,Rear Collision,Major Damage,48400,1,0,0.0
+392,Side Collision,Total Loss,51480,1,0,0.0
+393,Rear Collision,Total Loss,51700,1,0,0.0
+394,Front Collision,Total Loss,65520,1,0,0.0
+395,Rear Collision,Major Damage,47700,1,0,0.0
+396,?,Minor Damage,5220,1,0,0.0
+397,Side Collision,Major Damage,73320,1,0,0.0
+398,Front Collision,Minor Damage,74900,1,0,0.0
+399,?,Trivial Damage,3190,1,0,0.0
+400,Rear Collision,Minor Damage,76920,1,0,0.0
+401,Front Collision,Total Loss,77990,1,0,0.0
+402,Front Collision,Total Loss,59670,1,0,0.0
+403,Rear Collision,Major Damage,44880,1,0,0.0
+404,Side Collision,Minor Damage,82830,1,0,0.0
+405,Front Collision,Minor Damage,84480,1,0,0.0
+406,Side Collision,Total Loss,79800,1,0,0.0
+407,Rear Collision,Minor Damage,53020,1,0,0.0
+408,Side Collision,Total Loss,24200,1,0,0.0
+409,Rear Collision,Minor Damage,43230,1,0,0.0
+410,?,Trivial Damage,3190,1,0,0.0
+411,?,Minor Damage,5850,1,0,0.0
+412,?,Trivial Damage,6820,1,0,0.0
+413,Front Collision,Minor Damage,69480,1,0,0.0
+414,Front Collision,Major Damage,94560,1,0,0.0
+415,?,Minor Damage,7800,1,0,0.0
+416,Front Collision,Total Loss,61270,1,0,0.0
+417,Rear Collision,Total Loss,71440,1,0,0.0
+418,Rear Collision,Total Loss,55600,1,0,0.0
+419,?,Trivial Damage,5000,1,0,0.0
+420,Side Collision,Minor Damage,95810,1,0,0.0
+421,Rear Collision,Major Damage,69300,1,0,0.0
+422,Front Collision,Total Loss,81120,1,0,0.0
+423,Front Collision,Major Damage,91260,1,0,0.0
+424,Side Collision,Minor Damage,60600,1,0,0.0
+425,Front Collision,Major Damage,64800,1,0,0.0
+426,Side Collision,Major Damage,66880,1,0,0.0
+427,Front Collision,Total Loss,58200,1,0,0.0
+428,Side Collision,Minor Damage,60570,1,0,0.0
+429,Rear Collision,Major Damage,69680,1,0,0.0
+430,Front Collision,Total Loss,55700,1,0,0.0
+431,Front Collision,Total Loss,62370,1,0,0.0
+432,Side Collision,Total Loss,54340,1,0,0.0
+433,Front Collision,Major Damage,55170,1,0,0.0
+434,Front Collision,Minor Damage,58500,1,0,0.0
+435,Rear Collision,Major Damage,59940,1,0,0.0
+436,Side Collision,Total Loss,73400,1,0,0.0
+437,Side Collision,Major Damage,41850,1,0,0.0
+438,?,Trivial Damage,6400,1,0,0.0
+439,?,Trivial Damage,3190,1,0,0.0
+440,?,Trivial Damage,5900,1,0,0.0
+441,Rear Collision,Total Loss,57330,1,0,0.0
+442,Front Collision,Total Loss,81960,1,0,0.0
+443,Side Collision,Major Damage,70400,1,0,0.0
+444,?,Minor Damage,3770,1,0,0.0
+445,?,Minor Damage,7400,1,0,0.0
+446,Rear Collision,Total Loss,54810,1,0,0.0
+447,Rear Collision,Total Loss,49400,1,0,0.0
+448,Front Collision,Minor Damage,68750,1,0,0.0
+449,Front Collision,Total Loss,61500,1,0,0.0
+450,Rear Collision,Major Damage,76890,1,0,0.0
+451,Rear Collision,Minor Damage,56070,1,0,0.0
+452,Side Collision,Total Loss,56000,1,0,0.0
+453,?,Trivial Damage,4290,1,0,0.0
+454,Rear Collision,Total Loss,60750,1,0,0.0
+455,Side Collision,Minor Damage,48730,1,0,0.0
+456,Front Collision,Minor Damage,95150,1,0,0.0
+457,?,Minor Damage,7480,1,0,0.0
+458,Side Collision,Major Damage,79800,1,0,0.0
+459,Side Collision,Total Loss,103560,1,0,0.0
+460,Side Collision,Minor Damage,79500,1,0,0.0
+461,Rear Collision,Minor Damage,76230,1,0,0.0
+462,Side Collision,Minor Damage,59520,1,0,0.0
+463,Front Collision,Major Damage,47760,1,0,0.0
+464,Side Collision,Total Loss,84590,1,0,0.0
+465,Front Collision,Total Loss,61650,1,0,0.0
+466,Rear Collision,Major Damage,81400,1,0,0.0
+467,Side Collision,Major Damage,58410,1,0,0.0
+468,Side Collision,Major Damage,38610,1,0,0.0
+469,Front Collision,Minor Damage,57600,1,0,0.0
+470,Side Collision,Minor Damage,53190,1,0,0.0
+471,Front Collision,Major Damage,58300,1,0,0.0
+472,Front Collision,Minor Damage,64620,1,0,0.0
+473,Side Collision,Total Loss,90480,1,0,0.0
+474,?,Trivial Damage,7080,1,0,0.0
+475,?,Minor Damage,6490,1,0,0.0
+476,Side Collision,Total Loss,55900,1,0,0.0
+477,Rear Collision,Major Damage,63800,1,0,0.0
+478,Side Collision,Total Loss,58160,1,0,0.0
+479,?,Minor Damage,6300,1,0,0.0
+480,Front Collision,Major Damage,104610,1,0,0.0
+481,Rear Collision,Major Damage,69850,1,0,0.0
+482,Rear Collision,Minor Damage,62900,1,0,0.0
+483,Front Collision,Major Damage,59670,1,0,0.0
+484,Rear Collision,Minor Damage,81500,1,0,0.0
+485,Rear Collision,Minor Damage,50000,1,0,0.0
+486,Front Collision,Total Loss,48290,1,0,0.0
+487,Rear Collision,Total Loss,59070,1,0,0.0
+488,Rear Collision,Minor Damage,63300,1,0,0.0
+489,Side Collision,Total Loss,65780,1,0,0.0
+490,Front Collision,Total Loss,75400,1,0,0.0
+491,?,Minor Damage,2250,1,0,0.0
+492,Front Collision,Minor Damage,54120,1,0,0.0
+493,Side Collision,Major Damage,69480,1,0,0.0
+494,Rear Collision,Minor Damage,66950,1,0,0.0
+495,Rear Collision,Major Damage,64100,1,0,0.0
+496,Rear Collision,Minor Damage,80280,1,0,0.0
+497,?,Trivial Damage,4680,1,0,0.0
+498,Rear Collision,Minor Damage,39720,1,0,0.0
+499,Front Collision,Major Damage,63580,1,0,0.0
+500,Side Collision,Minor Damage,73370,1,0,0.0
+501,Side Collision,Minor Damage,86790,1,0,0.0
+502,Side Collision,Major Damage,49800,1,0,0.0
+503,Side Collision,Major Damage,77440,1,0,0.0
+504,Front Collision,Total Loss,42900,1,0,0.0
+505,Rear Collision,Major Damage,53820,1,0,0.0
+506,Rear Collision,Minor Damage,57330,1,0,0.0
+507,Rear Collision,Minor Damage,53370,1,0,0.0
+508,Front Collision,Minor Damage,62920,1,0,0.0
+509,Front Collision,Total Loss,61600,1,0,0.0
+510,Rear Collision,Total Loss,74160,1,0,0.0
+511,Rear Collision,Total Loss,80100,1,0,0.0
+512,?,Trivial Damage,6560,1,0,0.0
+513,Rear Collision,Total Loss,58800,1,0,0.0
+514,Side Collision,Minor Damage,53730,1,0,0.0
+515,Rear Collision,Total Loss,60600,1,0,0.0
+516,Side Collision,Total Loss,35750,1,0,0.0
+517,Front Collision,Total Loss,42840,1,0,0.0
+518,Front Collision,Major Damage,87960,1,0,0.0
+519,Rear Collision,Minor Damage,47800,1,0,0.0
+520,?,Trivial Damage,3840,1,0,0.0
+521,Front Collision,Total Loss,77000,1,0,0.0
+522,Rear Collision,Total Loss,88110,1,0,0.0
+523,Rear Collision,Minor Damage,47740,1,0,0.0
+524,Rear Collision,Total Loss,58960,1,0,0.0
+525,?,Minor Damage,2160,1,0,0.0
+526,?,Trivial Damage,6890,1,0,0.0
+527,Side Collision,Major Damage,78870,1,0,0.0
+528,?,Trivial Damage,2700,1,0,0.0
+529,Front Collision,Total Loss,75960,1,0,0.0
+530,Front Collision,Major Damage,75570,1,0,0.0
+531,Front Collision,Minor Damage,90240,1,0,0.0
+532,Front Collision,Major Damage,80960,1,0,0.0
+533,Front Collision,Total Loss,79080,1,0,0.0
+534,?,Minor Damage,6820,1,0,0.0
+535,Rear Collision,Total Loss,62590,1,0,0.0
+536,Side Collision,Major Damage,52400,1,0,0.0
+537,Front Collision,Major Damage,63580,1,0,0.0
+538,Side Collision,Minor Damage,61400,1,0,0.0
+539,?,Minor Damage,4700,1,0,0.0
+540,Front Collision,Total Loss,74140,1,0,0.0
+541,Front Collision,Major Damage,83160,1,0,0.0
+542,?,Trivial Damage,10790,1,0,0.0
+543,Rear Collision,Major Damage,48070,1,0,0.0
+544,Rear Collision,Minor Damage,51030,1,0,0.0
+545,Front Collision,Minor Damage,43280,1,0,0.0
+546,Front Collision,Major Damage,76400,1,0,0.0
+547,Side Collision,Total Loss,75460,1,0,0.0
+548,Side Collision,Major Damage,69000,1,0,0.0
+549,?,Minor Damage,8640,1,0,0.0
+550,Rear Collision,Minor Damage,67210,1,0,0.0
+551,Side Collision,Total Loss,42500,1,0,0.0
+552,Rear Collision,Minor Damage,86400,1,0,0.0
+553,?,Minor Damage,4620,1,0,0.0
+554,?,Trivial Damage,6930,1,0,0.0
+555,Side Collision,Minor Damage,41700,1,0,0.0
+556,Rear Collision,Major Damage,77330,1,0,0.0
+557,?,Trivial Damage,4950,1,0,0.0
+558,?,Minor Damage,5160,1,0,0.0
+559,Side Collision,Total Loss,24570,1,0,0.0
+560,Rear Collision,Minor Damage,53680,1,0,0.0
+561,Side Collision,Total Loss,42900,1,0,0.0
+562,Front Collision,Minor Damage,84100,1,0,0.0
+563,Front Collision,Total Loss,61560,1,0,0.0
+564,Rear Collision,Minor Damage,44240,1,0,0.0
+565,Rear Collision,Minor Damage,57700,1,0,0.0
+566,Side Collision,Minor Damage,108030,1,0,0.0
+567,Rear Collision,Minor Damage,54300,1,0,0.0
+568,Front Collision,Major Damage,32280,1,0,0.0
+569,Rear Collision,Total Loss,84600,1,0,0.0
+570,Front Collision,Total Loss,69700,1,0,0.0
+571,Rear Collision,Total Loss,36400,1,0,0.0
+572,Side Collision,Minor Damage,37520,1,0,0.0
+573,Side Collision,Major Damage,79090,1,0,0.0
+574,Rear Collision,Major Damage,67770,1,0,0.0
+575,Side Collision,Total Loss,47400,1,0,0.0
+576,Front Collision,Total Loss,71100,1,0,0.0
+577,Front Collision,Minor Damage,69400,1,0,0.0
+578,Rear Collision,Major Damage,55000,1,0,0.0
+579,Rear Collision,Total Loss,51090,1,0,0.0
+580,Side Collision,Major Damage,64200,1,0,0.0
+581,Front Collision,Total Loss,67320,1,0,0.0
+582,Side Collision,Major Damage,76120,1,0,0.0
+583,Front Collision,Minor Damage,85020,1,0,0.0
+584,Rear Collision,Minor Damage,68090,1,0,0.0
+585,?,Trivial Damage,6030,1,0,0.0
+586,?,Minor Damage,5100,1,0,0.0
+587,?,Trivial Damage,4590,1,0,0.0
+588,Front Collision,Major Damage,72400,1,0,0.0
+589,Front Collision,Major Damage,70900,1,0,0.0
+590,Side Collision,Total Loss,65100,1,0,0.0
+591,Side Collision,Total Loss,64260,1,0,0.0
+592,Rear Collision,Major Damage,79970,1,0,0.0
+593,Rear Collision,Total Loss,56610,1,0,0.0
+594,Side Collision,Major Damage,84590,1,0,0.0
+595,Side Collision,Major Damage,66780,1,0,0.0
+596,Rear Collision,Major Damage,58500,1,0,0.0
+597,?,Trivial Damage,5000,1,0,0.0
+598,?,Trivial Damage,5000,1,0,0.0
+599,Front Collision,Major Damage,54450,1,0,0.0
+600,Front Collision,Major Damage,61920,1,0,0.0
+601,Side Collision,Minor Damage,43700,1,0,0.0
+602,Front Collision,Minor Damage,64080,1,0,0.0
+603,Rear Collision,Total Loss,55000,1,0,0.0
+604,?,Trivial Damage,4400,1,0,0.0
+605,Side Collision,Minor Damage,71640,1,0,0.0
+606,Rear Collision,Minor Damage,61740,1,0,0.0
+607,Side Collision,Total Loss,57500,1,0,0.0
+608,?,Minor Damage,8700,1,0,0.0
+609,Front Collision,Total Loss,77100,1,0,0.0
+610,Front Collision,Minor Damage,59400,1,0,0.0
+611,Rear Collision,Minor Damage,54890,1,0,0.0
+612,Front Collision,Minor Damage,74030,1,0,0.0
+613,Rear Collision,Total Loss,61490,1,0,0.0
+614,Front Collision,Minor Damage,79560,1,0,0.0
+615,?,Minor Damage,4900,1,0,0.0
+616,Side Collision,Total Loss,77770,1,0,0.0
+617,Side Collision,Major Damage,74700,1,0,0.0
+618,Front Collision,Minor Damage,40600,1,0,0.0
+619,Rear Collision,Total Loss,45270,1,0,0.0
+620,Front Collision,Minor Damage,47080,1,0,0.0
+621,Side Collision,Minor Damage,40700,1,0,0.0
+622,Side Collision,Minor Damage,34650,1,0,0.0
+623,?,Trivial Damage,3200,1,0,0.0
+624,Rear Collision,Major Damage,78980,1,0,0.0
+625,?,Minor Damage,6160,1,0,0.0
+626,Front Collision,Major Damage,85250,1,0,0.0
+627,Side Collision,Major Damage,72840,1,0,0.0
+628,?,Trivial Damage,6050,1,0,0.0
+629,Front Collision,Major Damage,87890,1,0,0.0
+630,Side Collision,Total Loss,60500,1,0,0.0
+631,Front Collision,Minor Damage,88220,1,0,0.0
+632,Rear Collision,Total Loss,53680,1,0,0.0
+633,Front Collision,Minor Damage,53800,1,0,0.0
+634,Rear Collision,Major Damage,54360,1,0,0.0
+635,Side Collision,Major Damage,54340,1,0,0.0
+636,?,Trivial Damage,2860,1,0,0.0
+637,?,Minor Damage,5490,1,0,0.0
+638,?,Trivial Damage,7370,1,0,0.0
+639,Side Collision,Major Damage,50800,1,0,0.0
+640,Side Collision,Minor Damage,41520,1,0,0.0
+641,Side Collision,Total Loss,89650,1,0,0.0
+642,Rear Collision,Total Loss,39690,1,0,0.0
+643,Rear Collision,Major Damage,62260,1,0,0.0
+644,Side Collision,Major Damage,51920,1,0,0.0
+645,Front Collision,Minor Damage,53460,1,0,0.0
+646,Rear Collision,Total Loss,57100,1,0,0.0
+647,Front Collision,Total Loss,77440,1,0,0.0
+648,Side Collision,Minor Damage,68300,1,0,0.0
+649,?,Trivial Damage,5060,1,0,0.0
+650,Side Collision,Total Loss,59400,1,0,0.0
+651,Side Collision,Major Damage,69930,1,0,0.0
+652,Front Collision,Minor Damage,77700,1,0,0.0
+653,Front Collision,Major Damage,68750,1,0,0.0
+654,Side Collision,Minor Damage,91080,1,0,0.0
+655,Side Collision,Minor Damage,48360,1,0,0.0
+656,Side Collision,Major Damage,95000,1,0,0.0
+657,?,Trivial Damage,3900,1,0,0.0
+658,Front Collision,Minor Damage,59400,1,0,0.0
+659,Rear Collision,Minor Damage,60210,1,0,0.0
+660,Front Collision,Minor Damage,43600,1,0,0.0
+661,Front Collision,Total Loss,62800,1,0,0.0
+662,Side Collision,Major Damage,59500,1,0,0.0
+663,Front Collision,Total Loss,53460,1,0,0.0
+664,Side Collision,Total Loss,41690,1,0,0.0
+665,Side Collision,Minor Damage,63100,1,0,0.0
+666,Front Collision,Total Loss,62880,1,0,0.0
+667,Side Collision,Major Damage,75400,1,0,0.0
+668,Rear Collision,Total Loss,46200,1,0,0.0
+669,Rear Collision,Major Damage,58500,1,0,0.0
+670,Rear Collision,Major Damage,66240,1,0,0.0
+671,Rear Collision,Total Loss,65440,1,0,0.0
+672,Front Collision,Minor Damage,64200,1,0,0.0
+673,Rear Collision,Minor Damage,32320,1,0,0.0
+674,Rear Collision,Major Damage,33480,1,0,0.0
+675,?,Trivial Damage,4320,1,0,0.0
+676,?,Trivial Damage,4200,1,0,0.0
+677,Front Collision,Minor Damage,57970,1,0,0.0
+678,?,Trivial Damage,4320,1,0,0.0
+679,Front Collision,Minor Damage,69300,1,0,0.0
+680,Side Collision,Minor Damage,32480,1,0,0.0
+681,Front Collision,Total Loss,60480,1,0,0.0
+682,?,Trivial Damage,2640,1,0,0.0
+683,?,Trivial Damage,6050,1,0,0.0
+684,Rear Collision,Total Loss,42700,1,0,0.0
+685,Front Collision,Major Damage,40260,1,0,0.0
+686,Rear Collision,Major Damage,50000,1,0,0.0
+687,?,Trivial Damage,3840,1,0,0.0
+688,Rear Collision,Minor Damage,95900,1,0,0.0
+689,Side Collision,Minor Damage,56160,1,0,0.0
+690,Side Collision,Major Damage,63030,1,0,0.0
+691,Front Collision,Minor Damage,63470,1,0,0.0
+692,Front Collision,Major Damage,44440,1,0,0.0
+693,?,Minor Damage,6600,1,0,0.0
+694,Side Collision,Minor Damage,77200,1,0,0.0
+695,Rear Collision,Total Loss,57000,1,0,0.0
+696,?,Trivial Damage,2700,1,0,0.0
+697,Rear Collision,Total Loss,47300,1,0,0.0
+698,Rear Collision,Major Damage,55110,1,0,0.0
+699,?,Trivial Damage,4320,1,0,0.0
+700,Front Collision,Total Loss,68760,1,0,0.0
+701,Front Collision,Major Damage,74400,1,0,0.0
+702,Rear Collision,Major Damage,35300,1,0,0.0
+703,?,Minor Damage,2640,1,0,0.0
+704,Rear Collision,Total Loss,60190,1,0,0.0
+705,Rear Collision,Major Damage,41580,1,0,0.0
+706,Side Collision,Minor Damage,58500,1,0,0.0
+707,Rear Collision,Minor Damage,79320,1,0,0.0
+708,Rear Collision,Minor Damage,82610,1,0,0.0
+709,Rear Collision,Total Loss,78600,1,0,0.0
+710,Front Collision,Minor Damage,51390,1,0,0.0
+711,Side Collision,Major Damage,70200,1,0,0.0
+712,?,Minor Damage,4900,1,0,0.0
+713,Side Collision,Major Damage,66480,1,0,0.0
+714,Rear Collision,Major Damage,50380,1,0,0.0
+715,Front Collision,Major Damage,64350,1,0,0.0
+716,Rear Collision,Major Damage,55400,1,0,0.0
+717,Front Collision,Total Loss,49900,1,0,0.0
+718,Side Collision,Minor Damage,74880,1,0,0.0
+719,Front Collision,Minor Damage,105820,1,0,0.0
+720,?,Trivial Damage,7150,1,0,0.0
+721,Front Collision,Total Loss,55800,1,0,0.0
+722,?,Trivial Damage,5830,1,0,0.0
+723,Side Collision,Major Damage,85900,1,0,0.0
+724,?,Minor Damage,7110,1,0,0.0
+725,Side Collision,Total Loss,36960,1,0,0.0
+726,Rear Collision,Minor Damage,64400,1,0,0.0
+727,?,Minor Damage,1920,1,0,0.0
+728,Rear Collision,Major Damage,86130,1,0,0.0
+729,Side Collision,Major Damage,82170,1,0,0.0
+730,Front Collision,Major Damage,50300,1,0,0.0
+731,Side Collision,Major Damage,44200,1,0,0.0
+732,Side Collision,Major Damage,66660,1,0,0.0
+733,Front Collision,Total Loss,78320,1,0,0.0
+734,Rear Collision,Total Loss,105040,1,0,0.0
+735,Side Collision,Minor Damage,50700,1,0,0.0
+736,Front Collision,Total Loss,51210,1,0,0.0
+737,Rear Collision,Total Loss,51840,1,0,0.0
+738,Front Collision,Total Loss,52800,1,0,0.0
+739,Front Collision,Minor Damage,55200,1,0,0.0
+740,?,Minor Damage,9100,1,0,0.0
+741,Rear Collision,Minor Damage,67600,1,0,0.0
+742,Rear Collision,Minor Damage,40800,1,0,0.0
+743,Side Collision,Major Damage,84500,1,0,0.0
+744,Front Collision,Major Damage,71610,1,0,0.0
+745,Rear Collision,Major Damage,60600,1,0,0.0
+746,Rear Collision,Major Damage,81240,1,0,0.0
+747,Side Collision,Total Loss,29300,1,0,0.0
+748,Side Collision,Total Loss,76450,1,0,0.0
+749,Side Collision,Major Damage,49400,1,0,0.0
+750,Side Collision,Total Loss,90530,1,0,0.0
+751,?,Minor Damage,8030,1,0,0.0
+752,Side Collision,Minor Damage,63900,1,0,0.0
+753,Rear Collision,Minor Damage,38640,1,0,0.0
+754,Rear Collision,Total Loss,41490,1,0,0.0
+755,Side Collision,Minor Damage,79090,1,0,0.0
+756,Side Collision,Major Damage,87900,1,0,0.0
+757,Rear Collision,Total Loss,53400,1,0,0.0
+758,Rear Collision,Total Loss,52030,1,0,0.0
+759,Front Collision,Minor Damage,82060,1,0,0.0
+760,Front Collision,Minor Damage,48360,1,0,0.0
+761,Side Collision,Minor Damage,52290,1,0,0.0
+762,Rear Collision,Major Damage,68200,1,0,0.0
+763,Rear Collision,Major Damage,60750,1,0,0.0
+764,Front Collision,Major Damage,65560,1,0,0.0
+765,Rear Collision,Minor Damage,70290,1,0,0.0
+766,Rear Collision,Total Loss,45000,1,0,0.0
+767,Rear Collision,Total Loss,61800,1,0,0.0
+768,Front Collision,Major Damage,64570,1,0,0.0
+769,Rear Collision,Minor Damage,70500,1,0,0.0
+770,Side Collision,Total Loss,57900,1,0,0.0
+771,Front Collision,Minor Damage,57860,1,0,0.0
+772,Side Collision,Minor Damage,37800,1,0,0.0
+773,Front Collision,Total Loss,63300,1,0,0.0
+774,Rear Collision,Total Loss,44200,1,0,0.0
+775,Side Collision,Minor Damage,31680,1,0,0.0
+776,?,Trivial Damage,100,0,0,0.0
+777,Front Collision,Minor Damage,56340,1,0,0.0
+778,Rear Collision,Total Loss,69740,1,0,0.0
+779,Front Collision,Total Loss,60480,1,0,0.0
+780,Rear Collision,Minor Damage,80880,1,0,0.0
+781,Front Collision,Total Loss,49390,1,0,0.0
+782,Front Collision,Minor Damage,69360,1,0,0.0
+783,?,Minor Damage,3740,1,0,0.0
+784,?,Trivial Damage,5060,1,0,0.0
+785,Front Collision,Total Loss,35860,1,0,0.0
+786,Front Collision,Major Damage,50050,1,0,0.0
+787,Rear Collision,Minor Damage,59070,1,0,0.0
+788,Front Collision,Minor Damage,28440,1,0,0.0
+789,Front Collision,Major Damage,45540,1,0,0.0
+790,Rear Collision,Minor Damage,38700,1,0,0.0
+791,?,Trivial Damage,5830,1,0,0.0
+792,Rear Collision,Total Loss,57240,1,0,0.0
+793,Rear Collision,Total Loss,46200,1,0,0.0
+794,Side Collision,Total Loss,57700,1,0,0.0
+795,Front Collision,Minor Damage,56160,1,0,0.0
+796,Side Collision,Total Loss,44400,1,0,0.0
+797,Rear Collision,Major Damage,92730,1,0,0.0
+798,Side Collision,Minor Damage,30700,1,0,0.0
+799,Side Collision,Major Damage,56600,1,0,0.0
+800,?,Trivial Damage,3960,1,0,0.0
+801,Rear Collision,Minor Damage,34800,1,0,0.0
+802,Rear Collision,Minor Damage,79500,1,0,0.0
+803,Front Collision,Total Loss,56000,1,0,0.0
+804,Rear Collision,Minor Damage,73260,1,0,0.0
+805,?,Trivial Damage,4950,1,0,0.0
+806,Rear Collision,Minor Damage,48000,1,0,0.0
+807,Side Collision,Major Damage,52200,1,0,0.0
+808,Rear Collision,Minor Damage,73800,1,0,0.0
+809,Side Collision,Total Loss,78200,1,0,0.0
+810,Rear Collision,Major Damage,55200,1,0,0.0
+811,Side Collision,Total Loss,57060,1,0,0.0
+812,?,Minor Damage,4680,1,0,0.0
+813,Front Collision,Minor Damage,53100,1,0,0.0
+814,?,Minor Damage,3520,1,0,0.0
+815,Front Collision,Total Loss,72900,1,0,0.0
+816,Rear Collision,Total Loss,70700,1,0,0.0
+817,Side Collision,Minor Damage,60170,1,0,0.0
+818,Rear Collision,Major Damage,74800,1,0,0.0
+819,?,Trivial Damage,4100,1,0,0.0
+820,Side Collision,Minor Damage,61490,1,0,0.0
+821,?,Trivial Damage,7200,1,0,0.0
+822,Side Collision,Minor Damage,45100,1,0,0.0
+823,Front Collision,Minor Damage,66660,1,0,0.0
+824,Front Collision,Major Damage,76400,1,0,0.0
+825,Rear Collision,Total Loss,58300,1,0,0.0
+826,Front Collision,Total Loss,57310,1,0,0.0
+827,Front Collision,Minor Damage,53100,1,0,0.0
+828,Side Collision,Total Loss,74700,1,0,0.0
+829,Rear Collision,Major Damage,60500,1,0,0.0
+830,Side Collision,Total Loss,84920,1,0,0.0
+831,Side Collision,Total Loss,61050,1,0,0.0
+832,Rear Collision,Major Damage,69080,1,0,0.0
+833,?,Minor Damage,4560,1,0,0.0
+834,Rear Collision,Total Loss,67800,1,0,0.0
+835,?,Minor Damage,5600,1,0,0.0
+836,?,Minor Damage,9000,1,0,0.0
+837,Rear Collision,Total Loss,85320,1,0,0.0
+838,?,Trivial Damage,5940,1,0,0.0
+839,Side Collision,Major Damage,51370,1,0,0.0
+840,Rear Collision,Major Damage,51600,1,0,0.0
+841,?,Trivial Damage,5400,1,0,0.0
+842,Rear Collision,Minor Damage,48870,1,0,0.0
+843,?,Minor Damage,5590,1,0,0.0
+844,Front Collision,Major Damage,54960,1,0,0.0
+845,Side Collision,Minor Damage,39800,1,0,0.0
+846,Side Collision,Major Damage,56160,1,0,0.0
+847,Side Collision,Total Loss,52700,1,0,0.0
+848,Side Collision,Minor Damage,68580,1,0,0.0
+849,Side Collision,Major Damage,90860,1,0,0.0
+850,?,Trivial Damage,5700,1,0,0.0
+851,Side Collision,Total Loss,94930,1,0,0.0
+852,Side Collision,Major Damage,46800,1,0,0.0
+853,Side Collision,Total Loss,56320,1,0,0.0
+854,Front Collision,Minor Damage,83490,1,0,0.0
+855,Side Collision,Total Loss,57900,1,0,0.0
+856,Rear Collision,Total Loss,49410,1,0,0.0
+857,Side Collision,Minor Damage,66200,1,0,0.0
+858,Front Collision,Minor Damage,64080,1,0,0.0
+859,Side Collision,Minor Damage,42500,1,0,0.0
+860,Side Collision,Total Loss,48950,1,0,0.0
+861,Rear Collision,Minor Damage,58850,1,0,0.0
+862,Side Collision,Minor Damage,82400,1,0,0.0
+863,Rear Collision,Minor Damage,54240,1,0,0.0
+864,Front Collision,Minor Damage,74200,1,0,0.0
+865,Front Collision,Total Loss,47430,1,0,0.0
+866,Rear Collision,Major Damage,68200,1,0,0.0
+867,Front Collision,Minor Damage,63900,1,0,0.0
+868,Rear Collision,Total Loss,59300,1,0,0.0
+869,Front Collision,Minor Damage,66900,1,0,0.0
+870,Rear Collision,Major Damage,40810,1,0,0.0
+871,Front Collision,Total Loss,75400,1,0,0.0
+872,?,Minor Damage,4200,1,0,0.0
+873,Side Collision,Major Damage,52650,1,0,0.0
+874,Rear Collision,Major Damage,42240,1,0,0.0
+875,Side Collision,Minor Damage,59490,1,0,0.0
+876,Side Collision,Major Damage,44200,1,0,0.0
+877,?,Trivial Damage,7700,1,0,0.0
+878,Front Collision,Total Loss,61440,1,0,0.0
+879,Rear Collision,Major Damage,54400,1,0,0.0
+880,Front Collision,Total Loss,58560,1,0,0.0
+881,Front Collision,Major Damage,67300,1,0,0.0
+882,Rear Collision,Major Damage,36740,1,0,0.0
+883,Rear Collision,Total Loss,85690,1,0,0.0
+884,Side Collision,Major Damage,34160,1,0,0.0
+885,Front Collision,Minor Damage,61320,1,0,0.0
+886,Rear Collision,Total Loss,79680,1,0,0.0
+887,Front Collision,Total Loss,61740,1,0,0.0
+888,?,Minor Damage,6400,1,0,0.0
+889,Rear Collision,Major Damage,60600,1,0,0.0
+890,Side Collision,Major Damage,56320,1,0,0.0
+891,Side Collision,Total Loss,52250,1,0,0.0
+892,Rear Collision,Total Loss,53900,1,0,0.0
+893,?,Trivial Damage,2640,1,0,0.0
+894,?,Minor Damage,8970,1,0,0.0
+895,?,Minor Damage,6000,1,0,0.0
+896,Front Collision,Major Damage,55200,1,0,0.0
+897,?,Trivial Damage,7260,1,0,0.0
+898,Front Collision,Minor Damage,64680,1,0,0.0
+899,Rear Collision,Major Damage,59200,1,0,0.0
+900,?,Minor Damage,4700,1,0,0.0
+901,Side Collision,Total Loss,69400,1,0,0.0
+902,Side Collision,Total Loss,40500,1,0,0.0
+903,Side Collision,Minor Damage,60000,1,0,0.0
+904,Side Collision,Minor Damage,67320,1,0,0.0
+905,Side Collision,Total Loss,75690,1,0,0.0
+906,Side Collision,Major Damage,64300,1,0,0.0
+907,Rear Collision,Major Damage,64400,1,0,0.0
+908,Front Collision,Minor Damage,97080,1,0,0.0
+909,?,Minor Damage,5500,1,0,0.0
+910,Rear Collision,Total Loss,30700,1,0,0.0
+911,Side Collision,Minor Damage,33480,1,0,0.0
+912,Front Collision,Total Loss,65430,1,0,0.0
+913,Rear Collision,Major Damage,42680,1,0,0.0
+914,Side Collision,Minor Damage,87780,1,0,0.0
+915,Front Collision,Major Damage,72800,1,0,0.0
+916,Rear Collision,Major Damage,71190,1,0,0.0
+917,?,Trivial Damage,3600,1,0,0.0
+918,Side Collision,Major Damage,62640,1,0,0.0
+919,Front Collision,Minor Damage,69630,1,0,0.0
+920,Rear Collision,Minor Damage,76010,1,0,0.0
+921,Rear Collision,Total Loss,44220,1,0,0.0
+922,Rear Collision,Minor Damage,57200,1,0,0.0
+923,?,Minor Damage,3080,1,0,0.0
+924,Rear Collision,Total Loss,75790,1,0,0.0
+925,Rear Collision,Minor Damage,32670,1,0,0.0
+926,?,Minor Damage,3870,1,0,0.0
+927,Front Collision,Total Loss,91520,1,0,0.0
+928,Front Collision,Major Damage,74690,1,0,0.0
+929,?,Trivial Damage,4620,1,0,0.0
+930,Side Collision,Major Damage,55000,1,0,0.0
+931,Rear Collision,Major Damage,59400,1,0,0.0
+932,Side Collision,Total Loss,55260,1,0,0.0
+933,Side Collision,Minor Damage,51400,1,0,0.0
+934,Side Collision,Minor Damage,48780,1,0,0.0
+935,Rear Collision,Major Damage,52380,1,0,0.0
+936,Side Collision,Total Loss,74360,1,0,0.0
+937,Front Collision,Minor Damage,53400,1,0,0.0
+938,Front Collision,Total Loss,71800,1,0,0.0
+939,Front Collision,Major Damage,68240,1,0,0.0
+940,Rear Collision,Major Damage,61050,1,0,0.0
+941,?,Minor Damage,5590,1,0,0.0
+942,Side Collision,Major Damage,46860,1,0,0.0
+943,?,Minor Damage,4290,1,0,0.0
+944,Front Collision,Minor Damage,78500,1,0,0.0
+945,Side Collision,Total Loss,70830,1,0,0.0
+946,Front Collision,Total Loss,68040,1,0,0.0
+947,Side Collision,Major Damage,63600,1,0,0.0
+948,Side Collision,Minor Damage,43560,1,0,0.0
+949,Front Collision,Total Loss,60840,1,0,0.0
+950,Side Collision,Total Loss,68160,1,0,0.0
+951,?,Minor Damage,5170,1,0,0.0
+952,Side Collision,Total Loss,57700,1,0,0.0
+953,Front Collision,Total Loss,89520,1,0,0.0
+954,?,Minor Damage,4620,1,0,0.0
+955,Rear Collision,Minor Damage,45180,1,0,0.0
+956,Side Collision,Total Loss,45100,1,0,0.0
+957,Side Collision,Total Loss,83160,1,0,0.0
+958,Rear Collision,Minor Damage,86130,1,0,0.0
+959,Front Collision,Major Damage,48000,1,0,0.0
+960,?,Minor Damage,3300,1,0,0.0
+961,Rear Collision,Minor Damage,57200,1,0,0.0
+962,?,Trivial Damage,7590,1,0,0.0
+963,Rear Collision,Total Loss,80080,1,0,0.0
+964,?,Minor Damage,4800,1,0,0.0
+965,?,Minor Damage,3900,1,0,0.0
+966,Front Collision,Minor Damage,90400,1,0,0.0
+967,Rear Collision,Minor Damage,62900,1,0,0.0
+968,Rear Collision,Major Damage,54200,1,0,0.0
+969,Side Collision,Major Damage,51800,1,0,0.0
+970,?,Trivial Damage,6600,1,0,0.0
+971,Side Collision,Total Loss,74140,1,0,0.0
+972,Front Collision,Total Loss,67800,1,0,0.0
+973,Rear Collision,Major Damage,55400,1,0,0.0
+974,Rear Collision,Major Damage,49100,1,0,0.0
+975,Side Collision,Major Damage,98280,1,0,0.0
+976,Rear Collision,Total Loss,66550,1,0,0.0
+977,Side Collision,Major Damage,70400,1,0,0.0
+978,Side Collision,Major Damage,53280,1,0,0.0
+979,Front Collision,Total Loss,84590,1,0,0.0
+980,Rear Collision,Total Loss,54560,1,0,0.0
+981,Rear Collision,Minor Damage,82170,1,0,0.0
+982,Front Collision,Total Loss,61100,1,0,0.0
+983,Front Collision,Minor Damage,51900,1,0,0.0
+984,?,Trivial Damage,3440,1,0,0.0
+985,Side Collision,Total Loss,51390,1,0,0.0
+986,Side Collision,Major Damage,76900,1,0,0.0
+987,Rear Collision,Minor Damage,77000,1,0,0.0
+988,Side Collision,Major Damage,60320,1,0,0.0
+989,Rear Collision,Minor Damage,60700,1,0,0.0
+990,Rear Collision,Total Loss,53280,1,0,0.0
+991,Rear Collision,Minor Damage,34290,1,0,0.0
+992,Rear Collision,Total Loss,46980,1,0,0.0
+993,Front Collision,Major Damage,36700,1,0,0.0
+994,Side Collision,Total Loss,60200,1,0,0.0
+995,?,Minor Damage,6480,1,0,0.0
+996,Front Collision,Minor Damage,87200,1,0,0.0
+997,Rear Collision,Major Damage,108480,1,0,0.0
+998,Side Collision,Minor Damage,67500,1,0,0.0
+999,Rear Collision,Major Damage,46980,1,0,0.0
+1000,?,Minor Damage,5060,1,0,0.0

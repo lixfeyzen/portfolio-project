@@ -1,0 +1,93 @@
+PHASE 4 — SQL EXECUTION LOG
+Claims Leakage & Recovery Analytics
+
+Execution Context
+
+Project       : Claims Leakage & Recovery Analytics
+Phase         : Phase 4 – SQL Analysis & Business Logic
+Database      : DuckDB (persistent file)
+DB File       : db/claims_leakage.duckdb
+Execution     : Python REPL (CMD)
+OS            : Windows
+
+Data Load
+---------
+Source File   : data/insurance_claims.csv
+Load Method   : read_csv_auto()
+Table Created : insurance_claims
+Load Status   : SUCCESS
+
+Record Count
+------------
+Total Claims  : 1000 records
+
+Validation Results
+------------------
+Total Claims Paid (SUM total_claim_amount)
+- Value        : 52,761,940
+
+Component Reconciliation Check
+- total_claim_amount vs (injury + property + vehicle)
+- Mismatch Count : 0
+- Status         : No component reconciliation issues detected
+
+Data Quality Findings
+---------------------
+Field          : policy_csl
+Data Type      : VARCHAR
+Observed Values:
+- '100/300'
+- '250/500'
+- '500/1000'
+
+Impact:
+- policy_csl cannot be directly compared with numeric claim amounts
+- Coverage limits are encoded as text ranges
+- Explicit parsing logic is required before coverage breach analysis
+
+Notes
+
+- This data structure reflects realistic insurance policy representations
+- Coverage limit parsing will be handled in subsequent business rule implementation
+- No raw financial values were modified during validation
+- All findings are based on executed SQL queries
+
+Status
+
+Phase 4.2 (Data Validation) : COMPLETED
+Next Step                  : Parse policy_csl into numeric coverage limit
+
+
+Coverage Breach Interpretation Note
+-----------------------------------
+Observation:
+- 999 out of 1000 claims exceed parsed policy CSL limits
+
+Assessment:
+- Policy CSL values appear to represent categorical coverage levels,
+  not monetary limits comparable to claim amounts
+
+Decision:
+- Coverage breach retained as risk indicator only
+- Coverage limits excluded from direct leakage amount calculation
+- Leakage estimation will rely on cost–severity reasonableness rules
+
+Rationale:
+- Prevents systematic overstatement of leakage
+- Aligns analysis with realistic insurance data constraints
+
+
+Leakage Calculation Outcome
+---------------------------
+Result:
+- No claims met the severity–cost mismatch criteria
+- Potential leakage amount calculated as zero
+
+Interpretation:
+- Dataset does not exhibit cost anomalies relative to severity classification
+- Severity labels may be too coarse for leakage detection
+- Data appears more suitable for fraud classification than operational leakage
+
+Conclusion:
+- Leakage not detected under conservative, defensible rules
+- Result reflects data limitations, not execution failure
