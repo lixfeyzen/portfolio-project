@@ -1,0 +1,16 @@
+informasi dataset
+
+longitude: Koordinat bujur lokasi rumah..
+latitude: Koordinat lintang lokasi rumah.
+housing_median_age:  Usia rata-rata rumah di blok tersebut; ini dapat mencerminkan era pembangunan atau mengindikasikan apakah area tersebut memiliki rumah yang lebih baru atau lebih tua.
+total_rooms: Jumlah total ruangan di blok rumah.
+total_bedrooms: Jumlah kamar tidur di blok 
+data int64.
+total_bedrooms: 20.433 entri non-null, tipe data float64 (menunjukkan ada beberapa nilai yang hilang).
+population: 20.640 entri non-null, tipe data int64.
+households: 20.640 entri non-null, tipe data int64.
+median_income: 20.640 entri non-null, tipe data float64.
+ocean_proximity: 20.640 entri non-null, tipe data object (biasanya string atau tipe campuran).
+median_house_value: 20.640 entri non-null, tipe data int64.
+
+link:https://www.kaggle.com/datasets/shibumohapatra/house-price/code
