@@ -1,0 +1,26 @@
+# Raw source data
+data/raw/*.csv
+data/raw/*.zip
+data/raw/*.xlsx
+data/raw/*.xls
+data/raw/*.parquet
+!data/raw/README.md
+
+# Local SQL Server exports and temporary files
+*.bak
+*.tmp
+*.log
+documentation/sql_execution_outputs/*.csv
+documentation/sql_execution_outputs/*.json
+documentation/sql_execution_outputs/*.md
+!documentation/sql_execution_outputs/README.md
+
+# Local AI review handoff packages
+gpt_pro_powerbi_review_pack/
+gpt_pro_powerbi_review_pack.zip
+gpt_pro_powerbi_compact_pack.zip
+
+# Local OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/

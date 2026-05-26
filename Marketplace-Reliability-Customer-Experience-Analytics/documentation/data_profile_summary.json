@@ -1,0 +1,447 @@
+{
+  "profile_source": "project data/raw directory",
+  "files": {
+    "olist_customers_dataset.csv": {
+      "row_count": 99441,
+      "columns": [
+        "customer_id",
+        "customer_unique_id",
+        "customer_zip_code_prefix",
+        "customer_city",
+        "customer_state"
+      ],
+      "expected_columns": [
+        "customer_id",
+        "customer_unique_id",
+        "customer_zip_code_prefix",
+        "customer_city",
+        "customer_state"
+      ],
+      "schema_match": true,
+      "missing": {},
+      "date_ranges": {},
+      "domains": {
+        "customer_state": {
+          "SP": 41746,
+          "SC": 3637,
+          "MG": 11635,
+          "PR": 5045,
+          "RJ": 12852,
+          "RS": 5466,
+          "PA": 975,
+          "GO": 2020,
+          "ES": 2033,
+          "BA": 3380,
+          "MA": 747,
+          "MS": 715,
+          "CE": 1336,
+          "DF": 2140,
+          "RN": 485,
+          "PE": 1652,
+          "MT": 907,
+          "AM": 148,
+          "AP": 68,
+          "AL": 413,
+          "RO": 253,
+          "PB": 536,
+          "TO": 280,
+          "PI": 495,
+          "AC": 81,
+          "SE": 350,
+          "RR": 46
+        }
+      }
+    },
+    "olist_geolocation_dataset.csv": {
+      "row_count": 1000163,
+      "columns": [
+        "geolocation_zip_code_prefix",
+        "geolocation_lat",
+        "geolocation_lng",
+        "geolocation_city",
+        "geolocation_state"
+      ],
+      "expected_columns": [
+        "geolocation_zip_code_prefix",
+        "geolocation_lat",
+        "geolocation_lng",
+        "geolocation_city",
+        "geolocation_state"
+      ],
+      "schema_match": true,
+      "missing": {},
+      "date_ranges": {},
+      "domains": {}
+    },
+    "olist_orders_dataset.csv": {
+      "row_count": 99441,
+      "columns": [
+        "order_id",
+        "customer_id",
+        "order_status",
+        "order_purchase_timestamp",
+        "order_approved_at",
+        "order_delivered_carrier_date",
+        "order_delivered_customer_date",
+        "order_estimated_delivery_date"
+      ],
+      "expected_columns": [
+        "order_id",
+        "customer_id",
+        "order_status",
+        "order_purchase_timestamp",
+        "order_approved_at",
+        "order_delivered_carrier_date",
+        "order_delivered_customer_date",
+        "order_estimated_delivery_date"
+      ],
+      "schema_match": true,
+      "missing": {
+        "order_delivered_carrier_date": 1783,
+        "order_delivered_customer_date": 2965,
+        "order_approved_at": 160
+      },
+      "date_ranges": {
+        "order_purchase_timestamp": {
+          "minimum": "2016-09-04 21:15:19",
+          "maximum": "2018-10-17 17:30:18",
+          "invalid_nonblank_values": 0
+        },
+        "order_approved_at": {
+          "minimum": "2016-09-15 12:16:38",
+          "maximum": "2018-09-03 17:40:06",
+          "invalid_nonblank_values": 0
+        },
+        "order_delivered_carrier_date": {
+          "minimum": "2016-10-08 10:34:01",
+          "maximum": "2018-09-11 19:48:28",
+          "invalid_nonblank_values": 0
+        },
+        "order_delivered_customer_date": {
+          "minimum": "2016-10-11 13:46:32",
+          "maximum": "2018-10-17 13:22:46",
+          "invalid_nonblank_values": 0
+        },
+        "order_estimated_delivery_date": {
+          "minimum": "2016-09-30 00:00:00",
+          "maximum": "2018-11-12 00:00:00",
+          "invalid_nonblank_values": 0
+        }
+      },
+      "domains": {
+        "order_status": {
+          "delivered": 96478,
+          "invoiced": 314,
+          "shipped": 1107,
+          "processing": 301,
+          "unavailable": 609,
+          "canceled": 625,
+          "created": 5,
+          "approved": 2
+        }
+      }
+    },
+    "olist_order_items_dataset.csv": {
+      "row_count": 112650,
+      "columns": [
+        "order_id",
+        "order_item_id",
+        "product_id",
+        "seller_id",
+        "shipping_limit_date",
+        "price",
+        "freight_value"
+      ],
+      "expected_columns": [
+        "order_id",
+        "order_item_id",
+        "product_id",
+        "seller_id",
+        "shipping_limit_date",
+        "price",
+        "freight_value"
+      ],
+      "schema_match": true,
+      "missing": {},
+      "date_ranges": {
+        "shipping_limit_date": {
+          "minimum": "2016-09-19 00:15:34",
+          "maximum": "2020-04-09 22:35:08",
+          "invalid_nonblank_values": 0
+        }
+      },
+      "domains": {}
+    },
+    "olist_order_payments_dataset.csv": {
+      "row_count": 103886,
+      "columns": [
+        "order_id",
+        "payment_sequential",
+        "payment_type",
+        "payment_installments",
+        "payment_value"
+      ],
+      "expected_columns": [
+        "order_id",
+        "payment_sequential",
+        "payment_type",
+        "payment_installments",
+        "payment_value"
+      ],
+      "schema_match": true,
+      "missing": {},
+      "date_ranges": {},
+      "domains": {
+        "payment_type": {
+          "credit_card": 76795,
+          "boleto": 19784,
+          "voucher": 5775,
+          "debit_card": 1529,
+          "not_defined": 3
+        }
+      }
+    },
+    "olist_order_reviews_dataset.csv": {
+      "row_count": 99224,
+      "columns": [
+        "review_id",
+        "order_id",
+        "review_score",
+        "review_comment_title",
+        "review_comment_message",
+        "review_creation_date",
+        "review_answer_timestamp"
+      ],
+      "expected_columns": [
+        "review_id",
+        "order_id",
+        "review_score",
+        "review_comment_title",
+        "review_comment_message",
+        "review_creation_date",
+        "review_answer_timestamp"
+      ],
+      "schema_match": true,
+      "missing": {
+        "review_comment_title": 87658,
+        "review_comment_message": 58274
+      },
+      "date_ranges": {
+        "review_creation_date": {
+          "minimum": "2016-10-02 00:00:00",
+          "maximum": "2018-08-31 00:00:00",
+          "invalid_nonblank_values": 0
+        },
+        "review_answer_timestamp": {
+          "minimum": "2016-10-07 18:32:28",
+          "maximum": "2018-10-29 12:27:35",
+          "invalid_nonblank_values": 0
+        }
+      },
+      "domains": {
+        "review_score": {
+          "4": 19142,
+          "5": 57328,
+          "1": 11424,
+          "3": 8179,
+          "2": 3151
+        }
+      }
+    },
+    "olist_products_dataset.csv": {
+      "row_count": 32951,
+      "columns": [
+        "product_id",
+        "product_category_name",
+        "product_name_lenght",
+        "product_description_lenght",
+        "product_photos_qty",
+        "product_weight_g",
+        "product_length_cm",
+        "product_height_cm",
+        "product_width_cm"
+      ],
+      "expected_columns": [
+        "product_id",
+        "product_category_name",
+        "product_name_lenght",
+        "product_description_lenght",
+        "product_photos_qty",
+        "product_weight_g",
+        "product_length_cm",
+        "product_height_cm",
+        "product_width_cm"
+      ],
+      "schema_match": true,
+      "missing": {
+        "product_category_name": 610,
+        "product_name_lenght": 610,
+        "product_description_lenght": 610,
+        "product_photos_qty": 610,
+        "product_weight_g": 2,
+        "product_length_cm": 2,
+        "product_height_cm": 2,
+        "product_width_cm": 2
+      },
+      "date_ranges": {},
+      "domains": {}
+    },
+    "olist_sellers_dataset.csv": {
+      "row_count": 3095,
+      "columns": [
+        "seller_id",
+        "seller_zip_code_prefix",
+        "seller_city",
+        "seller_state"
+      ],
+      "expected_columns": [
+        "seller_id",
+        "seller_zip_code_prefix",
+        "seller_city",
+        "seller_state"
+      ],
+      "schema_match": true,
+      "missing": {},
+      "date_ranges": {},
+      "domains": {
+        "seller_state": {
+          "SP": 1849,
+          "RJ": 171,
+          "PE": 9,
+          "PR": 349,
+          "GO": 40,
+          "SC": 190,
+          "BA": 19,
+          "DF": 30,
+          "RS": 129,
+          "MG": 244,
+          "RN": 5,
+          "MT": 4,
+          "CE": 13,
+          "PB": 6,
+          "AC": 1,
+          "ES": 23,
+          "RO": 2,
+          "PI": 1,
+          "MS": 5,
+          "SE": 2,
+          "MA": 1,
+          "AM": 1,
+          "PA": 1
+        }
+      }
+    },
+    "product_category_name_translation.csv": {
+      "row_count": 71,
+      "columns": [
+        "product_category_name",
+        "product_category_name_english"
+      ],
+      "expected_columns": [
+        "product_category_name",
+        "product_category_name_english"
+      ],
+      "schema_match": true,
+      "missing": {},
+      "date_ranges": {},
+      "domains": {}
+    }
+  },
+  "quality_prechecks": [
+    {
+      "metric": "Delivered orders missing customer delivery date",
+      "value": 8,
+      "notes": "Excluded from delivery reliability until reviewed."
+    },
+    {
+      "metric": "Orders missing estimated delivery date",
+      "value": 0,
+      "notes": "Late or on-time status requires an estimated delivery date."
+    },
+    {
+      "metric": "Orders missing approved date",
+      "value": 160,
+      "notes": "Useful for fulfillment sequence validation."
+    },
+    {
+      "metric": "Cancelled orders",
+      "value": 625,
+      "notes": "Tracked separately from delivered-order reliability."
+    },
+    {
+      "metric": "Unavailable orders",
+      "value": 609,
+      "notes": "Tracked separately from delivered-order reliability."
+    },
+    {
+      "metric": "Orders without payment",
+      "value": 1,
+      "notes": "Affects payment coverage and reconciliation."
+    },
+    {
+      "metric": "Orders without review",
+      "value": 768,
+      "notes": "Reduces review-score coverage."
+    },
+    {
+      "metric": "Duplicate order_id values in orders",
+      "value": 0,
+      "notes": "raw_orders is expected to be one row per order."
+    },
+    {
+      "metric": "Delivered date before purchase date",
+      "value": 0,
+      "notes": "Invalid delivery sequence."
+    },
+    {
+      "metric": "Carrier date before approved date",
+      "value": 1359,
+      "notes": "Invalid fulfillment sequence."
+    },
+    {
+      "metric": "Customer delivered date before carrier date",
+      "value": 23,
+      "notes": "Invalid delivery sequence."
+    },
+    {
+      "metric": "Zero or negative price rows",
+      "value": 0,
+      "notes": "Product revenue expects positive item price values."
+    },
+    {
+      "metric": "Negative freight rows",
+      "value": 0,
+      "notes": "Negative freight is invalid and should be investigated."
+    },
+    {
+      "metric": "Zero freight rows",
+      "value": 383,
+      "notes": "Zero freight may represent free shipping or no freight charged; requires review and is not automatically invalid."
+    },
+    {
+      "metric": "Negative payment value rows",
+      "value": 0,
+      "notes": "Negative payment values are invalid and should be investigated."
+    },
+    {
+      "metric": "Zero payment value rows",
+      "value": 9,
+      "notes": "Zero payment requires review and is not automatically invalid unless later validation confirms an issue."
+    },
+    {
+      "metric": "Review score outside 1 to 5",
+      "value": 0,
+      "notes": "Review analysis expects the standard 1 to 5 scale."
+    },
+    {
+      "metric": "Products without category",
+      "value": 610,
+      "notes": "Category analysis should group these as Unknown."
+    },
+    {
+      "metric": "Product categories missing translation",
+      "value": 2,
+      "notes": "Untranslated categories should fall back to original names."
+    }
+  ]
+}
