@@ -1,8 +1,8 @@
 # Data Analytics Portfolio
 
-A collection of data analytics, business intelligence, and machine learning projects focused on turning raw data into decision-ready insights.
+A collection of data analytics, business intelligence, system analysis, and machine learning projects focused on turning raw data and business problems into decision-ready insights.
 
-This portfolio highlights my work across SQL, Power BI, Python, data cleaning, dashboarding, business analysis, machine learning, and portfolio documentation.
+This portfolio highlights my work across SQL, Power BI, Python, data cleaning, dashboarding, business analysis, system documentation, machine learning, and portfolio documentation.
 
 ---
 
@@ -27,6 +27,28 @@ This project focuses on marketplace health, delivery reliability, customer exper
 - Business insight and recommendation writing
 
 **Project repository:** [View project](./Marketplace-Reliability-Customer-Experience-Analytics)
+
+---
+
+### ProfitHub Gym Operations & Membership Management System
+
+**Tools:** System Analysis, Business Requirements, ERD, Mermaid, API Specification, Test Scenarios
+
+Created a System Analyst portfolio case study for a small-to-medium gym operations system focused on member management, subscription tracking, payment monitoring, class scheduling, and owner dashboard reporting.
+
+This project demonstrates the ability to translate business pain points into structured requirements, user roles, use cases, process flows, ERD, API draft, acceptance criteria, test scenarios, and wireframe notes.
+
+**Project focus:**
+
+- Business and functional requirements
+- User roles and permission mapping
+- Use case and process flow documentation
+- ERD and data model planning
+- API specification draft
+- Acceptance criteria and test scenarios
+- Wireframe notes for core system screens
+
+**Project repository:** [View project](./ProfitHub-Gym-Operations-System-Analysis)
 
 ---
 
@@ -108,7 +130,6 @@ This portfolio also includes additional analytics and machine learning projects,
 - Customer churn prioritization framework
 - Global land temperature data visualization
 - Income vs purchasing power regression analysis
-- ProfitHub gym management mobile app
 - SentinelOps project package
 
 These projects show additional work across analytics thinking, modeling, visualization, and application-oriented problem solving.
@@ -124,6 +145,13 @@ These projects show additional work across analytics thinking, modeling, visuali
 - Power BI dashboarding
 - DAX measure creation
 - Business KPI design
+- System analysis documentation
+- Business requirements analysis
+- Functional and non-functional requirements
+- Use case documentation
+- ERD and data model planning
+- API specification drafting
+- Test scenario planning
 - Exploratory data analysis
 - Customer behavior analysis
 - Seller and operational risk analysis
@@ -142,11 +170,13 @@ These projects show additional work across analytics thinking, modeling, visuali
 - Scikit-learn
 - Excel
 - GitHub
+- Mermaid
+- Markdown
 
 ---
 
 ## About
 
-I use data analytics to understand business performance, identify operational issues, and translate raw data into practical recommendations.
+I use data analytics and system analysis to understand business performance, identify operational issues, and translate raw data or business problems into practical recommendations.
 
-My projects focus on building analysis that is not only technically correct, but also useful for decision-making.
+My projects focus on building analysis and documentation that are not only technically correct, but also useful for decision-making and implementation planning.
