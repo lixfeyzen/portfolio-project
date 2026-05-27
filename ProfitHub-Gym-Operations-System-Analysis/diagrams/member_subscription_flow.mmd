@@ -1,0 +1,19 @@
+flowchart TD
+    Start([New customer requests membership])
+    Capture[Admin captures member details]
+    Validate{Required data valid?}
+    FixData[Admin corrects missing or invalid data]
+    CreateMember[System creates member record]
+    SelectPlan[Admin selects active membership plan]
+    PlanActive{Plan active?}
+    ChooseStart[Admin sets subscription start date]
+    CalculateEnd[System calculates end date from plan duration]
+    CreateSubscription[System creates subscription record]
+    SetStatus[System sets subscription status]
+    End([Member ready for payment and booking workflows])
+
+    Start --> Capture --> Validate
+    Validate -- No --> FixData --> Capture
+    Validate -- Yes --> CreateMember --> SelectPlan --> PlanActive
+    PlanActive -- No --> SelectPlan
+    PlanActive -- Yes --> ChooseStart --> CalculateEnd --> CreateSubscription --> SetStatus --> End

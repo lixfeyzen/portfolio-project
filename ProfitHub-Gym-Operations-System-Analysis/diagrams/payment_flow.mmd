@@ -1,0 +1,22 @@
+flowchart TD
+    Start([Payment event or follow-up review])
+    OpenPayment[Admin opens payment tracking]
+    SelectMember[Admin selects member]
+    EnterPayment[Admin enters amount, method, status, payment date, and due date]
+    Validate{Payment data valid?}
+    Correct[Admin corrects payment data]
+    Save[System saves payment record]
+    Paid{Payment status paid?}
+    UpdatePaid[System updates payment history]
+    CheckDue{Due date passed and unpaid?}
+    MarkOverdue[System marks payment as overdue]
+    ShowUnpaid[System lists unpaid record for follow-up]
+    End([Payment list and member history updated])
+
+    Start --> OpenPayment --> SelectMember --> EnterPayment --> Validate
+    Validate -- No --> Correct --> EnterPayment
+    Validate -- Yes --> Save --> Paid
+    Paid -- Yes --> UpdatePaid --> End
+    Paid -- No --> CheckDue
+    CheckDue -- Yes --> MarkOverdue --> End
+    CheckDue -- No --> ShowUnpaid --> End

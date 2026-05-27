@@ -1,0 +1,99 @@
+erDiagram
+    USER {
+        int user_id PK
+        string full_name
+        string email
+        string role
+        string password_hash
+        boolean is_active
+        datetime created_at
+        datetime updated_at
+    }
+
+    MEMBER {
+        int member_id PK
+        string full_name
+        string phone_number
+        string email
+        date date_of_birth
+        date join_date
+        string status
+        datetime created_at
+        datetime updated_at
+    }
+
+    TRAINER {
+        int trainer_id PK
+        string full_name
+        string phone_number
+        string specialization
+        boolean is_active
+        datetime created_at
+    }
+
+    MEMBERSHIP_PLAN {
+        int plan_id PK
+        string plan_name
+        int duration_days
+        decimal price
+        string description
+        boolean is_active
+    }
+
+    SUBSCRIPTION {
+        int subscription_id PK
+        int member_id FK
+        int plan_id FK
+        date start_date
+        date end_date
+        string status
+        datetime created_at
+    }
+
+    PAYMENT {
+        int payment_id PK
+        int member_id FK
+        int subscription_id FK
+        decimal amount
+        string payment_method
+        string payment_status
+        date payment_date
+        date due_date
+        int created_by FK
+    }
+
+    CLASS_SCHEDULE {
+        int class_id PK
+        string class_name
+        int trainer_id FK
+        date class_date
+        time start_time
+        time end_time
+        int capacity
+        string status
+    }
+
+    CLASS_BOOKING {
+        int booking_id PK
+        int class_id FK
+        int member_id FK
+        string booking_status
+        datetime booking_date
+    }
+
+    ATTENDANCE {
+        int attendance_id PK
+        int booking_id FK
+        string attendance_status
+        datetime checked_in_at
+    }
+
+    MEMBER ||--o{ SUBSCRIPTION : has
+    MEMBERSHIP_PLAN ||--o{ SUBSCRIPTION : defines
+    MEMBER ||--o{ PAYMENT : has
+    SUBSCRIPTION ||--o{ PAYMENT : references
+    USER ||--o{ PAYMENT : records
+    TRAINER ||--o{ CLASS_SCHEDULE : teaches
+    CLASS_SCHEDULE ||--o{ CLASS_BOOKING : has
+    MEMBER ||--o{ CLASS_BOOKING : books
+    CLASS_BOOKING ||--o| ATTENDANCE : produces

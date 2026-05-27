@@ -1,0 +1,23 @@
+flowchart TD
+    Start([Admin creates or manages class])
+    EnterClass[Enter class name, date, time, trainer, and capacity]
+    TrainerConflict{Trainer has overlapping class?}
+    ResolveConflict[Select another trainer or time]
+    SaveClass[System saves class schedule]
+    SelectMember[Admin selects member for booking]
+    ActiveMember{Member subscription active?}
+    RejectExpired[System blocks expired member booking]
+    CapacityAvailable{Class capacity available?}
+    RejectFull[System blocks booking because class is full]
+    ConfirmBooking[System creates class booking]
+    ClassDay[Trainer opens assigned class]
+    MarkAttendance[Trainer marks attendance]
+    End([Booking and attendance records updated])
+
+    Start --> EnterClass --> TrainerConflict
+    TrainerConflict -- Yes --> ResolveConflict --> EnterClass
+    TrainerConflict -- No --> SaveClass --> SelectMember --> ActiveMember
+    ActiveMember -- No --> RejectExpired --> End
+    ActiveMember -- Yes --> CapacityAvailable
+    CapacityAvailable -- No --> RejectFull --> End
+    CapacityAvailable -- Yes --> ConfirmBooking --> ClassDay --> MarkAttendance --> End

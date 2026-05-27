@@ -1,0 +1,36 @@
+flowchart LR
+    Owner["Owner / Manager"]
+    Admin["Admin / Receptionist"]
+    Trainer["Trainer"]
+
+    UC001(["Register New Member"])
+    UC002(["Assign Membership Plan"])
+    UC003(["Record Member Payment"])
+    UC004(["View Unpaid Members"])
+    UC005(["Create Class Schedule"])
+    UC006(["Book Member into Class"])
+    UC007(["Cancel Class Booking"])
+    UC008(["Mark Attendance"])
+    UC009(["View Owner Dashboard"])
+    UC010(["Track Expiring Memberships"])
+    AssignedClasses(["View Assigned Classes"])
+    StaffAccess(["Manage Staff Access"])
+    Reports(["View Operational Reports"])
+
+    Owner --> UC004
+    Owner --> UC009
+    Owner --> UC010
+    Owner --> StaffAccess
+    Owner --> Reports
+
+    Admin --> UC001
+    Admin --> UC002
+    Admin --> UC003
+    Admin --> UC004
+    Admin --> UC005
+    Admin --> UC006
+    Admin --> UC007
+    Admin --> UC010
+
+    Trainer --> AssignedClasses
+    Trainer --> UC008
