@@ -2,11 +2,20 @@
 
 ## Project Background
 
-ProfitHub is a proposed internal operations system for small and medium gym businesses. The project responds to common operational problems in gyms that rely on Excel, WhatsApp, paper notes, and disconnected tools to manage members, subscriptions, payments, classes, trainers, and reporting.
+ProfitHub is a proposed internal operations system for small and medium gym
+businesses.
+
+The project responds to common operational problems in gyms that rely on Excel,
+WhatsApp, paper notes, and disconnected tools to manage members, subscriptions,
+payments, classes, trainers, and reporting.
 
 ## Assumed Client Context
 
-The assumed client is a single-location or small gym operator with an owner, one or more admins or receptionists, and several trainers. The gym needs better control over daily operations but does not need a full member-facing mobile application during the MVP phase.
+The assumed client is a single-location or small gym operator with an owner, one
+or more admins or receptionists, and several trainers.
+
+The gym needs better control over daily operations but does not need a full
+member-facing mobile application during the MVP phase.
 
 No real gym client data is used in this project.
 
@@ -23,7 +32,14 @@ No real gym client data is used in this project.
 
 ## MVP Objective
 
-Create a documented system design for an internal gym operations system covering member management, subscriptions, payments, class bookings, attendance, and owner dashboard reporting.
+Create a documented system design for an internal gym operations system covering:
+
+- Member management
+- Subscriptions
+- Payments
+- Class bookings
+- Attendance
+- Owner dashboard reporting
 
 ## Target Users
 
@@ -54,7 +70,13 @@ Create a documented system design for an internal gym operations system covering
 
 ## System Scope
 
-The MVP includes five modules: Member Management, Membership Plan & Subscription, Payment Tracking, Class Schedule & Booking, and Owner Dashboard.
+The MVP includes five modules:
+
+1. Member Management
+2. Membership Plan & Subscription
+3. Payment Tracking
+4. Class Schedule & Booking
+5. Owner Dashboard
 
 ## Assumptions
 

@@ -38,7 +38,10 @@ Permissions:
 
 ### Member
 
-Member is not a full application user in the MVP. A member is represented only as a data entity and booking participant managed by staff.
+Member is not a full application user in the MVP.
+
+A member is represented only as a data entity and booking participant managed by
+staff.
 
 ## Permission Matrix
 
@@ -49,7 +52,7 @@ Member is not a full application user in the MVP. A member is represented only a
 | View operational reports | Yes | Limited | No | No |
 | Manage staff access | Yes | No | No | No |
 | Add or edit member records | Yes | Yes | No | No |
-| View member profile | Yes | Yes | Limited class context only | No |
+| View member profile | Yes | Yes | Class context only | No |
 | Create membership plan | Yes | Yes | No | No |
 | Assign membership plan | Yes | Yes | No | No |
 | Record payment | Yes | Yes | No | No |

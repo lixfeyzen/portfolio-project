@@ -2,7 +2,9 @@
 
 ## Page Purpose
 
-Provide a quick operational summary for owners and authorized admins. The page should support fast scanning, not deep accounting.
+Provide a quick operational summary for owners and authorized admins.
+
+The page should support fast scanning, not deep accounting.
 
 ## Layout Sections
 

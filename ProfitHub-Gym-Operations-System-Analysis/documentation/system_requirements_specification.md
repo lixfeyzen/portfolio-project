@@ -2,11 +2,17 @@
 
 ## 1. Introduction
 
-This document describes the draft system requirements for ProfitHub, an internal gym operations and membership management system. The document is intended for portfolio review and future implementation planning.
+This document describes the draft system requirements for ProfitHub, an internal
+gym operations and membership management system.
+
+The document is intended for portfolio review and future implementation
+planning.
 
 ## 2. System Purpose
 
-ProfitHub helps small and medium gyms manage member records, membership plans, subscriptions, payments, class schedules, bookings, attendance, and owner reporting in one structured system.
+ProfitHub helps small and medium gyms manage member records, membership plans,
+subscriptions, payments, class schedules, bookings, attendance, and owner
+reporting in one structured system.
 
 ## 3. Users
 
@@ -25,7 +31,19 @@ The MVP includes:
 4. Class Schedule & Booking
 5. Owner Dashboard
 
-The MVP excludes member mobile app, payment gateway integration, trainer payroll, inventory, complex accounting, loyalty points, AI recommendations, facial recognition attendance, multi-branch management, advanced CRM, and marketing automation.
+The MVP excludes:
+
+- Member mobile app
+- Payment gateway integration
+- Trainer payroll
+- Inventory management
+- Complex accounting
+- Loyalty points
+- AI recommendations
+- Facial recognition attendance
+- Multi-branch management
+- Advanced CRM
+- Marketing automation
 
 ## 5. Functional Requirements Summary
 

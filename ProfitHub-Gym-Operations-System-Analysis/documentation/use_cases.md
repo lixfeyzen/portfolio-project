@@ -11,7 +11,8 @@
   3. Admin enters required member details.
   4. System validates required fields and duplicate contact indicators.
   5. Admin saves the member record.
-- Alternative Flow: If required information is missing, the system shows validation messages and does not save the record.
+- Alternative Flow: If required information is missing, the system shows
+  validation messages and does not save the record.
 - Postcondition: New member record is available for subscription assignment.
 
 ## UC-002 Assign Membership Plan
@@ -26,7 +27,8 @@
   4. System calculates end date.
   5. Admin confirms subscription.
 - Alternative Flow: If selected plan is inactive, the system blocks assignment.
-- Postcondition: Member has a subscription record with start date, end date, and status.
+- Postcondition: Member has a subscription record with start date, end date, and
+  status.
 
 ## UC-003 Record Member Payment
 
@@ -114,7 +116,7 @@
 - Precondition: Owner is logged in.
 - Main Flow:
   1. Owner opens dashboard.
-  2. System displays active members, expired members, unpaid members, revenue, new members, popular classes, and trainer load.
+  2. System displays member, payment, class, and trainer load summaries.
   3. Owner reviews summary.
 - Alternative Flow: If no data exists, dashboard shows empty states.
 - Postcondition: Owner has current operational visibility.

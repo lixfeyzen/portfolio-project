@@ -81,7 +81,7 @@
 - Steps:
   1. System collects member, subscription, payment, booking, and attendance data.
   2. System calculates dashboard summaries.
-  3. System displays active members, expired members, unpaid members, monthly revenue, new members, popular classes, and trainer load.
+  3. System displays member, payment, class, and trainer load summaries.
 - Validation Rules:
   - Revenue summary uses paid payment records.
   - Expired member summary uses subscription end date and status.

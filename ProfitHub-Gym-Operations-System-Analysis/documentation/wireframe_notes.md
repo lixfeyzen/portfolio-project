@@ -1,6 +1,9 @@
 # Wireframe Notes
 
-The wireframes in this project are text-based planning notes only. They describe expected page structure, content areas, and workflow intent for future UI design or prototyping.
+The wireframes in this project are text-based planning notes only.
+
+They describe expected page structure, content areas, and workflow intent for
+future UI design or prototyping.
 
 ## Admin Dashboard
 

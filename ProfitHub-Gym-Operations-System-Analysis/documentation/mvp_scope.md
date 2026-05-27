@@ -2,7 +2,9 @@
 
 ## MVP Goal
 
-The MVP goal is to define an internal gym operations system that helps staff manage members, subscriptions, payments, class bookings, attendance, and owner reporting with clear records and role-based access.
+The MVP goal is to define an internal gym operations system that helps staff
+manage members, subscriptions, payments, class bookings, attendance, and owner
+reporting with clear records and role-based access.
 
 ## Included Modules
 
@@ -20,7 +22,7 @@ The MVP goal is to define an internal gym operations system that helps staff man
    - Create classes, assign trainers, set capacity, book members, cancel bookings, and mark attendance.
    - Prevent expired member booking and trainer schedule conflicts.
 5. Owner Dashboard
-   - Show active members, expired members, unpaid members, monthly revenue, new members, popular classes, and trainer schedule load.
+   - Show member, payment, revenue, class, and trainer schedule summaries.
 
 ## Excluded Modules
 
@@ -38,7 +40,12 @@ The MVP goal is to define an internal gym operations system that helps staff man
 
 ## Why Member Mobile App Is Excluded
 
-The MVP is focused on internal operational control. A member mobile app would add authentication, self-service booking, notifications, account management, and support requirements. Those features are useful later, but they would increase MVP scope before the gym has stabilized its internal member, subscription, payment, and schedule records.
+The MVP is focused on internal operational control.
+
+A member mobile app would add authentication, self-service booking,
+notifications, account management, and support requirements. Those features are
+useful later, but they would increase MVP scope before the gym has stabilized
+its internal member, subscription, payment, and schedule records.
 
 ## MVP Success Criteria
 
