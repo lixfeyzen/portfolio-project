@@ -24,6 +24,7 @@ erDiagram
 
     TRAINER {
         int trainer_id PK
+        int user_id FK
         string full_name
         string phone_number
         string specialization
@@ -93,6 +94,7 @@ erDiagram
     MEMBER ||--o{ PAYMENT : has
     SUBSCRIPTION ||--o{ PAYMENT : references
     USER ||--o{ PAYMENT : records
+    USER ||--o| TRAINER : "may link to"
     TRAINER ||--o{ CLASS_SCHEDULE : teaches
     CLASS_SCHEDULE ||--o{ CLASS_BOOKING : has
     MEMBER ||--o{ CLASS_BOOKING : books

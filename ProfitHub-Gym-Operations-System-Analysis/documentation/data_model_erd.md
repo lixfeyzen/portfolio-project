@@ -28,6 +28,7 @@
 ### Trainer
 
 - trainer_id
+- user_id optional
 - full_name
 - phone_number
 - specialization
@@ -93,23 +94,32 @@
 
 ## Relationships
 
+- User is used for system access and role-based permissions.
+- Member is not a full app user in the MVP.
 - Member has many Subscriptions.
 - Subscription belongs to MembershipPlan.
 - Member has many Payments.
-- Payment may belong to one Subscription.
+- Payment is linked to both Member and Subscription.
 - Payment is recorded by a User through created_by.
+- Trainer may optionally link to User through user_id when trainer login access
+  is required.
 - ClassSchedule belongs to Trainer.
 - ClassSchedule has many ClassBookings.
 - ClassBooking belongs to Member.
-- Attendance belongs to ClassBooking.
+- Attendance belongs to ClassBooking, not directly to ClassSchedule.
 
 ## Data Modeling Notes
 
-- `Member.status` supports operational filtering such as active, inactive, expired, and unpaid.
-- `Subscription.status` should be calculated or updated based on date and business rules.
-- `Payment.payment_status` supports paid, unpaid, overdue, cancelled, and refunded.
+- `Member.status` is an operational summary status derived from subscription
+  and payment conditions.
+- `Subscription.status` and `Payment.payment_status` are source-level status
+  records.
+- `Subscription.status` should be calculated or updated based on date and
+  business rules.
+- `Payment.payment_status` supports paid, unpaid, overdue, cancelled, and
+  refunded.
 - `ClassSchedule.status` supports scheduled, cancelled, and completed.
-- `ClassBooking.booking_status` supports booked and cancelled.
+- `ClassBooking.booking_status` supports Active, Cancelled, and Rejected.
 - `Attendance.attendance_status` supports present, absent, and late.
 
 See `diagrams/erd.mmd` for the Mermaid ER diagram source.

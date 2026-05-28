@@ -47,6 +47,14 @@ notifications, account management, and support requirements. Those features are
 useful later, but they would increase MVP scope before the gym has stabilized
 its internal member, subscription, payment, and schedule records.
 
+## Evidence-Based Scope Note
+
+The MVP scope is supported by public gym software feature benchmarks that
+commonly include membership management, payment/billing, scheduling, attendance,
+and reporting.
+
+Member mobile app and payment gateway integration remain future scope.
+
 ## MVP Success Criteria
 
 - Staff can create and update member records.
@@ -56,6 +64,39 @@ its internal member, subscription, payment, and schedule records.
 - Trainer schedule conflicts are blocked.
 - Owners can review key operational summaries in one dashboard.
 - The system scope remains focused on internal gym operations.
+
+## MoSCoW Prioritization Summary
+
+### Must Have
+
+- Member Management
+- Membership Plan & Subscription
+- Payment Tracking
+- Class Schedule & Booking
+- Owner Dashboard
+
+### Should Have
+
+- Expiring soon members
+- Overdue payment view
+- Popular class summary
+- Trainer schedule load
+
+### Could Have
+
+- Extra dashboard filters
+- Manual notes per member
+- Export report to CSV/PDF
+
+### Won't Have for MVP
+
+- Member mobile app
+- Payment gateway integration
+- Multi-branch management
+- Trainer payroll
+- Inventory management
+- Loyalty points
+- AI recommendation system
 
 ## Future Enhancement Roadmap
 

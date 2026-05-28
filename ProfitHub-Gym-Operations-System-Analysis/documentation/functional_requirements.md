@@ -39,13 +39,19 @@
 | --- | --- |
 | FR-CLS-001 | Allow an admin to create a class with trainer, date, time, capacity, and status. |
 | FR-CLS-002 | Allow an admin to assign an active trainer to a class. |
-| FR-CLS-003 | Require class capacity before opening bookings. |
+| FR-CLS-003 | Enforce class capacity before confirming class bookings. |
 | FR-CLS-004 | Allow an admin to book an eligible member into a class. |
 | FR-CLS-005 | Allow an admin to cancel a class booking. |
 | FR-CLS-006 | Prevent expired members from being booked into classes. |
 | FR-CLS-007 | Prevent trainer schedule conflicts for overlapping class times. |
 | FR-CLS-008 | Prevent bookings when class capacity has been reached. |
 | FR-CLS-009 | Allow trainers to mark attendance for booked members. |
+
+## Attendance Tracking
+
+| ID | Requirement |
+| --- | --- |
+| FR-ATT-001 | Allow trainers to mark attendance for assigned class participants. |
 
 ## Owner Dashboard
 
@@ -58,3 +64,15 @@
 | FR-DASH-005 | Show new members this month. |
 | FR-DASH-006 | Show popular classes based on bookings or attendance. |
 | FR-DASH-007 | Show trainer schedule load. |
+
+## Role-Based Access
+
+| ID | Requirement |
+| --- | --- |
+| FR-RBAC-001 | Enforce role-based access for owner, admin, and trainer actions. |
+
+## Audit and Operational Records
+
+| ID | Requirement |
+| --- | --- |
+| FR-AUD-001 | Store audit details such as created_at, updated_at, created_by, and updated_by where applicable. |

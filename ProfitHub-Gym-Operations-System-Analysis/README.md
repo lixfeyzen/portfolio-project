@@ -74,6 +74,33 @@ trainers manage core operational data in one structured workflow.
 - Wireframe notes
 - Mermaid diagram source files
 
+## Evidence Basis
+
+This project is supported by public gym management software feature benchmarking
+and realistic small-to-medium gym operations assumptions.
+
+The benchmark supports the MVP focus on member management, subscription
+tracking, payment monitoring, class scheduling, and owner dashboard reporting.
+
+This project does not use real gym client data and does not claim production
+deployment.
+
+## Additional System Analyst Artifacts
+
+This project also includes:
+
+- Business Rules and Status Definitions
+- Requirements Traceability Matrix
+- Dashboard Metric Definitions
+- Data Dictionary
+- System Risk and Controls
+- Change Request and Impact Analysis
+- Product Backlog
+- System Context Diagram
+- Evidence Basis
+- Market Feature Benchmark
+- Primary Validation Plan
+
 ## Repository Structure
 
 ```text

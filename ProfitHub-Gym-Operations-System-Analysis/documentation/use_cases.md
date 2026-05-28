@@ -132,3 +132,29 @@
   3. System displays members with subscriptions nearing end date.
 - Alternative Flow: If no subscriptions are expiring soon, the system shows an empty state.
 - Postcondition: Admin can prepare follow-up or renewal action.
+
+## UC-011 View Member Operational History
+
+- Actor: Owner / Manager or Admin / Receptionist
+- Goal: Review a member's subscription, payment, booking, and attendance history.
+- Precondition: Member record exists.
+- Main Flow:
+  1. User opens member detail.
+  2. System displays member profile.
+  3. System displays subscription history.
+  4. System displays payment history.
+  5. System displays class booking and attendance history.
+- Alternative Flow: If no history exists, the system shows an empty state.
+- Postcondition: User can review member history for service and operational decisions.
+
+## UC-012 Review Role-Based Access and Audit Records
+
+- Actor: Owner / Manager
+- Goal: Review staff access and audit-related operational records.
+- Precondition: Owner is logged in.
+- Main Flow:
+  1. Owner opens staff access or operational record review.
+  2. System displays users, roles, and relevant audit details.
+  3. Owner reviews access and record accountability.
+- Alternative Flow: If user does not have permission, access is denied.
+- Postcondition: Owner can review staff access and audit accountability.

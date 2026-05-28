@@ -67,7 +67,22 @@ The MVP excludes:
 - The system should be maintainable and ready for future module expansion.
 - Data should be included in backup and recovery planning before production use.
 
-## 7. System Constraints
+## 7. Supporting Analysis Artifacts
+
+The SRS is supported by these detailed analysis documents:
+
+- Business Rules and Status Definitions
+- Requirements Traceability Matrix
+- Dashboard Metric Definitions
+- Data Dictionary
+- System Risk and Controls
+- Change Request and Impact Analysis
+- Product Backlog
+
+These artifacts clarify logic, traceability, dashboard calculations, risk
+controls, future-change impact, and MVP prioritization.
+
+## 8. System Constraints
 
 - The system is designed for internal staff workflows only.
 - The MVP does not include online payment processing.
@@ -75,14 +90,14 @@ The MVP excludes:
 - The MVP does not include multi-branch business logic.
 - The API specification is draft-level and not a production implementation.
 
-## 8. Assumptions
+## 9. Assumptions
 
 - Gym staff will manually record offline payments.
 - Admin users are responsible for member and booking data accuracy.
 - Owners need operational summaries, not complex accounting reports.
 - Trainers only need access to assigned class and attendance workflows.
 
-## 9. Future Enhancements
+## 10. Future Enhancements
 
 - Member portal or mobile app.
 - Online payment integration.

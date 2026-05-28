@@ -2,27 +2,25 @@
 
 | Test ID | Scenario | Precondition | Steps | Expected Result |
 | --- | --- | --- | --- | --- |
-| TS-001 | Register valid member | Admin is logged in | Enter valid member data and save | Member record is created |
-| TS-002 | Register without phone | Admin is logged in | Leave phone blank and save | System shows error |
-| TS-003 | Search member by name | Member exists | Search by member name | Matching member appears |
-| TS-004 | Update member status | Member exists | Change status from member profile | Member status is updated |
-| TS-005 | Create plan | Authorized user is logged in | Enter name, duration, and price | Plan is created |
-| TS-006 | Assign plan | Member and active plan exist | Choose plan and start date | End date is calculated |
-| TS-007 | Assign inactive plan | Member and inactive plan exist | Select inactive plan | System blocks assignment |
-| TS-008 | Calculate expired status | End date has passed | Open expired list | Subscription appears as expired |
-| TS-009 | View expiring soon list | End date is near | Open expiring soon filter | Expiring members are listed |
-| TS-010 | Record valid payment | Member exists | Enter payment details and save | Payment record is created |
-| TS-011 | Record negative payment | Member exists | Enter negative amount and save | System rejects payment |
-| TS-012 | View unpaid members | Unpaid records exist | Open unpaid payment list | Unpaid records are displayed |
-| TS-013 | View overdue payment | Due date has passed | Open overdue list | Overdue payment is displayed |
-| TS-014 | Create valid class | Active trainer exists | Enter valid class details | Class schedule is created |
-| TS-015 | Invalid time range | Active trainer exists | End time is before start time | System rejects schedule |
-| TS-016 | Prevent trainer conflict | Trainer has overlap | Create overlapping class | System blocks schedule |
-| TS-017 | Book active member | Class has capacity | Select active member and confirm | Booking is created |
-| TS-018 | Prevent expired booking | Member is expired | Try to book member | System blocks booking |
-| TS-019 | Prevent over-capacity | Class capacity is full | Try to add another member | System blocks booking |
-| TS-020 | Cancel class booking | Active booking exists | Select booking and cancel | Booking becomes cancelled |
-| TS-021 | Mark attendance | Trainer has assigned class | Mark attendance and save | Attendance records are saved |
-| TS-022 | Block trainer revenue access | Trainer is logged in | Open revenue summary route | Access is denied |
-| TS-023 | View dashboard summary | Owner is logged in | Open dashboard | Summary metrics are displayed |
-| TS-024 | Block admin staff access | Admin is logged in | Open staff access management | Access is denied |
+| TS-001 | New member registration succeeds. | Admin is logged in. | Enter required member data and save. | Member record is created. |
+| TS-002 | Admin can search member by name or phone number. | Member exists. | Search by name or phone. | Matching member is shown. |
+| TS-003 | Plan can be assigned to member. | Member and active plan exist. | Select plan and start date. | Subscription is created. |
+| TS-004 | Subscription status is calculated. | Subscription dates exist. | Compare dates. | Correct status is shown. |
+| TS-005 | Payment can be recorded. | Member subscription exists. | Enter payment details and save. | Payment record is created. |
+| TS-006 | Unpaid member appears in unpaid list. | Unpaid payment exists. | Open unpaid payment view. | Member appears in list. |
+| TS-007 | Overdue payment is identified. | Unpaid due date has passed. | Open overdue view. | Payment is marked overdue. |
+| TS-008 | Class schedule can be created. | Active trainer exists. | Enter class details and save. | Class schedule is created. |
+| TS-009 | Class capacity limit is enforced. | Class is at capacity. | Try to book another member. | Booking is rejected. |
+| TS-010 | Trainer conflict is rejected. | Trainer has overlapping class. | Create overlapping schedule. | System rejects schedule. |
+| TS-011 | Eligible member can be booked. | Member active; class has capacity. | Book member into class. | Booking is created. |
+| TS-012 | Expired member booking is rejected. | Member subscription is expired. | Try to book member. | Booking is rejected. |
+| TS-013 | Trainer can mark attendance. | Trainer has assigned class. | Mark member attendance. | Attendance is saved. |
+| TS-014 | Owner can view dashboard summary. | Owner is logged in. | Open dashboard. | Summary is displayed. |
+| TS-015 | Revenue excludes cancelled/refunded payment. | Mixed statuses exist. | Calculate revenue. | Only Paid is included. |
+| TS-016 | Owner can access revenue dashboard. | Owner is logged in. | Open revenue summary. | Revenue summary is visible. |
+| TS-017 | Admin cannot access restricted revenue setting. | Admin is logged in. | Open setting. | Access is denied. |
+| TS-018 | Trainer cannot edit payment records. | Trainer is logged in. | Try to edit payment. | Access is denied. |
+| TS-019 | Cancelled booking is not active. | Cancelled booking exists. | Review capacity count. | Booking is excluded. |
+| TS-020 | Expiring soon member appears within 7 days. | End date within 7 days. | Open expiring list. | Member appears. |
+| TS-021 | Member detail shows operational history. | Member has history. | Open member detail page. | Available history sections display. |
+| TS-022 | Audit details are stored. | Staff performs create/update action. | Save operational record. | User and timestamp metadata are stored. |

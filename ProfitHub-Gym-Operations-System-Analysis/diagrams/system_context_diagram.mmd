@@ -1,0 +1,30 @@
+flowchart LR
+    Owner["Owner / Manager"]
+    Admin["Admin / Receptionist"]
+    Trainer["Trainer"]
+    FutureGateway["Future Payment Gateway<br/>future integration / out of MVP"]
+
+    System["ProfitHub System"]
+
+    MemberRecords["Member Records"]
+    SubscriptionRecords["Subscription Records"]
+    PaymentRecords["Payment Records"]
+    ClassSchedule["Class Schedule"]
+    BookingRecords["Booking Records"]
+    AttendanceRecords["Attendance Records"]
+    Dashboard["Owner Dashboard"]
+
+    Owner --> System
+    Admin --> System
+    Trainer --> System
+
+    System --> MemberRecords
+    System --> SubscriptionRecords
+    System --> PaymentRecords
+    System --> ClassSchedule
+    System --> BookingRecords
+    System --> AttendanceRecords
+    System --> Dashboard
+
+    Dashboard --> Owner
+    FutureGateway -. future integration .-> System

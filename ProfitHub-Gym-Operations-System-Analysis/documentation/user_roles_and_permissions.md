@@ -8,9 +8,9 @@ The Owner / Manager monitors operational performance and controls staff access.
 
 Permissions:
 
-- View dashboard.
-- View revenue summary.
-- View operational reports.
+- View dashboard and reports.
+- View revenue summary and dashboard metrics.
+- Review staff access.
 - View member, payment, subscription, class, booking, and attendance records.
 - Manage staff access.
 
@@ -20,8 +20,8 @@ The Admin / Receptionist manages front-desk operations.
 
 Permissions:
 
-- Manage members.
-- Manage subscriptions.
+- Manage member operations.
+- Manage subscription operations.
 - Record payments.
 - Manage class schedules and bookings.
 - View payment history and unpaid lists.
@@ -42,6 +42,8 @@ Member is not a full application user in the MVP.
 
 A member is represented only as a data entity and booking participant managed by
 staff.
+
+Member portal/mobile access is a future enhancement.
 
 ## Permission Matrix
 

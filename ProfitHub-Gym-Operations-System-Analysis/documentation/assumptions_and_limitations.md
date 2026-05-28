@@ -10,6 +10,7 @@
 - Admin staff manually record offline payments.
 - Owners need operational summaries, not complex accounting.
 - Trainers need assigned class and attendance access only.
+- Public feature benchmarking was used to ground MVP scope.
 
 ## Limitations
 
@@ -24,3 +25,7 @@
 - API specification is draft-level, not production implementation.
 - No production deployment is claimed.
 - No fake screenshots are included.
+- No real interviews have been claimed unless separately conducted.
+- No confidential gym data was used.
+- Public benchmark sources are used only to support general feature relevance,
+  not to copy product design.

@@ -67,6 +67,26 @@ acceptance criteria.
 The scope is intentionally limited to internal workflows that can be delivered
 first and expanded later.
 
+The requirements are traceable from business needs to functional requirements,
+use cases, acceptance criteria, and test scenarios. Business rules and status
+definitions were added to reduce ambiguity for developers and testers.
+
+The MVP scope is intentionally constrained to internal gym operations and
+excludes member mobile app, payment gateway integration, and multi-branch
+management.
+
+## Evidence Basis
+
+This case study is evidence-based, not client-based.
+
+The MVP modules were selected based on common gym management software features
+and realistic operational pain points for small-to-medium gyms. Public benchmark
+sources show that membership management, billing/payment tracking, class
+scheduling, attendance, and reporting are common gym software capabilities.
+
+No real gym transaction data or confidential client data was used. Primary
+validation through gym owner/admin interviews is listed as a future improvement.
+
 ## 7. Core Business Flows
 
 - Member Registration Flow: admin creates a member record and confirms required contact information.
