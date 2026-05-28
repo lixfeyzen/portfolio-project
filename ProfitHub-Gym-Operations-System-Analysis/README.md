@@ -1,143 +1,195 @@
-# ProfitHub - Gym Operations & Membership Management System
+# Data Analytics Portfolio
 
-ProfitHub is a System Analyst portfolio case study for an internal gym operations
-system.
+A collection of data analytics, business intelligence, system analysis, and machine learning projects focused on turning raw data and business problems into decision-ready insights.
 
-It documents how a small-to-medium gym can move from manual records,
-disconnected spreadsheets, WhatsApp follow-ups, and paper notes into a
-structured system for members, subscriptions, payments, class bookings,
-attendance, and owner reporting.
+This portfolio highlights my work across SQL, Power BI, Python, data cleaning, dashboarding, business analysis, system documentation, machine learning, and portfolio documentation.
 
-This is a System Analyst case study, not a finished application.
+---
 
-No production deployment, real client data, payment gateway integration, or
-member mobile app is included.
+## Featured Projects
 
-## Business Problem
+### Marketplace Reliability & Customer Experience Analytics
 
-Many gyms manage daily operations with informal tools. This creates:
+**Tools:** SQL Server, Power BI, DAX, Data Quality, Business Intelligence
 
-- Unclear member status
-- Missed payment follow-ups
-- Inconsistent revenue records
-- Class schedule conflicts
-- Trainer double-booking
-- Limited visibility for owners
+Built an end-to-end marketplace analytics workflow using the Olist Brazilian E-Commerce dataset, SQL Server reporting views, and a five-page Power BI dashboard.
 
-## System Goal
+This project focuses on marketplace health, delivery reliability, customer experience, seller risk, payment behavior, and data quality trust.
 
-Design an internal gym operations system that helps gym owners, admins, and
-trainers manage core operational data in one structured workflow.
+**Project focus:**
 
-## Target Users
+- SQL data cleaning and validation
+- Power BI executive dashboard
+- Delivery reliability analysis
+- Customer review and delay analysis
+- Seller risk matrix and watchlist
+- Data quality issue monitoring
+- Business insight and recommendation writing
 
-- Owner / Manager
-- Admin / Receptionist
-- Trainer
-- Member as a data entity and booking participant only, not a full MVP application user
+**Project repository:** [View project](./Marketplace-Reliability-Customer-Experience-Analytics)
 
-## MVP Modules
+---
 
-1. Member Management
-2. Membership Plan & Subscription
-3. Payment Tracking
-4. Class Schedule & Booking
-5. Owner Dashboard
+### ProfitHub Gym Operations & Membership Management System
 
-## Out of Scope
+**Tools:** System Analysis, Business Requirements, ERD, Mermaid, API Specification, Test Scenarios
 
-- Member mobile app
-- Trainer payroll
-- Inventory management
-- Complex accounting
-- Loyalty points
-- AI recommendation system
-- Facial recognition attendance
-- Payment gateway integration
-- Multi-branch management
-- Advanced CRM
-- Marketing automation
+Created an evidence-based System Analyst portfolio case study for a small-to-medium gym operations system focused on member management, subscription tracking, payment monitoring, class scheduling, attendance, and owner dashboard reporting.
 
-## System Analyst Deliverables
+This project demonstrates the ability to translate operational business pain points into structured system requirements, user roles, use cases, process flows, ERD, API draft, business rules, traceability matrix, acceptance criteria, test scenarios, risk controls, backlog prioritization, and wireframe notes.
 
-- Business requirements
-- Functional requirements
-- Non-functional requirements
-- User roles and permissions
-- Use cases
-- Business process flows
-- System Requirements Specification
-- ERD and data model notes
-- Draft API specification
-- Acceptance criteria
-- Test scenarios
-- Wireframe notes
-- Mermaid diagram source files
+**Project focus:**
 
-## Evidence Basis
+- Business and functional requirements
+- User roles and permission mapping
+- Use case and business process flow documentation
+- ERD and data model planning
+- API specification draft
+- Business rules and status definitions
+- Requirements traceability matrix
+- Dashboard metric definitions
+- Acceptance criteria and test scenarios
+- Risk register and change request impact analysis
+- Product backlog and MVP scope control
+- Wireframe notes for core system screens
 
-This project is supported by public gym management software feature benchmarking
-and realistic small-to-medium gym operations assumptions.
+**Project repository:** [View project](./ProfitHub-Gym-Operations-System-Analysis)
 
-The benchmark supports the MVP focus on member management, subscription
-tracking, payment monitoring, class scheduling, and owner dashboard reporting.
+---
 
-This project does not use real gym client data and does not claim production
-deployment.
+### Retail Sales & Operations Analytics
 
-## Additional System Analyst Artifacts
+**Tools:** SQL Server, Power BI, Data Cleaning, Business Intelligence
 
-This project also includes:
+Built an end-to-end retail analytics workflow from raw transaction data into SQL reporting views and a three-page Power BI dashboard.
 
-- Business Rules and Status Definitions
-- Requirements Traceability Matrix
-- Dashboard Metric Definitions
-- Data Dictionary
-- System Risk and Controls
-- Change Request and Impact Analysis
-- Product Backlog
-- System Context Diagram
-- Evidence Basis
-- Market Feature Benchmark
-- Primary Validation Plan
+The project covers revenue performance, product ranking, customer contribution, country analysis, cancellation impact, and data quality validation.
 
-## Repository Structure
+**Project focus:**
 
-```text
-ProfitHub-Gym-Operations-System-Analysis/
-|-- README.md
-|-- project_brief.md
-|-- case-study/
-|-- documentation/
-|-- diagrams/
-|-- wireframes/
-|-- assets/
-`-- prototype/
-```
+- SQL data cleaning and validation
+- Executive KPI dashboard
+- Product and customer analysis
+- Cancellation and data quality monitoring
+- Business insight and recommendation writing
 
-## How to Read This Project
+**Project repository:** [View project](./Retail-Sales-Operations-Analytics-Portfolio-Package-Final-Updated)
 
-Start with `project_brief.md` to understand the business context and MVP
-boundary.
+---
 
-Then read the case study in `case-study/` for the recruiter-friendly summary.
-The `documentation/` folder contains implementation-ready analysis artifacts,
-while `diagrams/` and `wireframes/` provide supporting system views.
+### Claims Leakage Recovery Analytics
+
+**Tools:** Data Analytics, Business Intelligence
+
+Analyzed potential leakage patterns and recovery opportunities in claims-related data.
+
+**Project focus:**
+
+- Claims leakage analysis
+- Recovery opportunity identification
+- Business intelligence reporting
+- Operational risk insight
+
+**Project repository:** [View project](./Claims%20Leakage%20Recovery%20Analytics)
+
+---
+
+### Bank Customer Churn Analysis
+
+**Tools:** Python, Machine Learning, Data Analysis
+
+Built a machine learning workflow to analyze customer churn behavior and identify churn risk patterns.
+
+**Project focus:**
+
+- Customer churn analysis
+- Exploratory data analysis
+- Machine learning modeling
+- Risk pattern identification
+
+**Project repository:** [View project](./bank%20customer%20churn%20ml%20analysis)
+
+---
+
+### California House Price Prediction
+
+**Tools:** Python, Regression Modeling, Machine Learning
+
+Developed a regression model to predict housing prices using structured housing market data.
+
+**Project focus:**
+
+- Regression modeling
+- Feature analysis
+- Model training and evaluation
+- Predictive analytics
+
+**Project repository:** [View project](./california-house-price-ml-prediction)
+
+---
+
+## Other Projects
+
+This portfolio also includes additional analytics and machine learning projects, such as:
+
+- Customer churn prioritization framework
+- Global land temperature data visualization
+- Income vs purchasing power regression analysis
+- SentinelOps project package
+
+These projects show additional work across analytics thinking, modeling, visualization, and application-oriented problem solving.
+
+---
 
 ## Skills Demonstrated
 
-- Requirement elicitation and scope control
-- Business process analysis
-- Use case modeling
-- Data modeling and ERD planning
-- API specification writing
-- Acceptance criteria and test scenario design
-- Role-based access planning
-- System documentation for implementation handoff
+- SQL data preparation
+- SQL data cleaning
+- SQL Server workflow design
+- Data quality validation
+- Power BI dashboarding
+- DAX measure creation
+- Business KPI design
+- System analysis documentation
+- Business requirements analysis
+- Functional and non-functional requirements
+- Use case documentation
+- Business process flow documentation
+- ERD and data model planning
+- API specification drafting
+- Requirements traceability mapping
+- Business rules and status definition
+- Acceptance criteria design
+- Test scenario planning
+- Risk and control analysis
+- Product backlog prioritization
+- Exploratory data analysis
+- Customer behavior analysis
+- Seller and operational risk analysis
+- Machine learning modeling
+- Business insight generation
+- Portfolio documentation
 
-## Project Status
+---
 
-Documentation complete for portfolio review.
+## Tools
 
-The project is ready to be used as a System Analyst case study and as a planning
-baseline for a future prototype or implementation.
+- SQL Server
+- Power BI
+- DAX
+- Power Query
+- Python
+- Pandas
+- Scikit-learn
+- Excel
+- GitHub
+- Mermaid
+- Markdown
+
+---
+
+## About
+
+I use data analytics and system analysis to understand business performance, identify operational issues, and translate raw data or business problems into practical recommendations.
+
+My projects focus on building analysis and documentation that are not only technically correct, but also useful for decision-making, implementation planning, and business improvement.
