@@ -4,6 +4,8 @@
 
 The project models OULAD as a local analytical schema in SQLite. Source identifiers are preserved so the model stays traceable to the original CSV files.
 
+The SQLite schema includes primary keys, foreign keys, and basic check constraints for the core trusted relationships and value ranges used by the reporting layer.
+
 ## Relationships
 
 ### courses to assessments
@@ -72,4 +74,3 @@ The reporting layer is implemented as SQL views:
 - at-risk student indicators
 
 The at-risk indicator model is rule-based reporting and should not be described as predictive machine learning.
-

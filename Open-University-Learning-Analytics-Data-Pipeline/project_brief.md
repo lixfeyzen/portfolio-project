@@ -1,10 +1,12 @@
-# Project Brief
+# Project Brief: OULAD Learning Analytics Data Pipeline
 
 ## Business Context
 
 An online learning provider needs reliable reporting on learner registration, engagement, assessments, withdrawals, and course outcomes. The raw learning platform data is available as CSV extracts, but the files are separated by business area and need to be cleaned, validated, modeled, and exported before they can support decision-making.
 
 This project uses the Open University Learning Analytics Dataset (OULAD), a real public anonymized dataset, to demonstrate a practical data engineering workflow for learning analytics reporting.
+
+The project is positioned as a focused local data engineering case study for learning analytics reporting.
 
 ## Why Learning Analytics Needs Data Engineering
 
@@ -61,7 +63,6 @@ Potential users include:
 ## Limitations
 
 - This is a local portfolio project, not a deployed production system.
-- SQLite is used for simplicity, not as a cloud warehouse replacement.
-- Airflow and dbt artifacts are documentation-level examples only.
+- SQLite is used for simplicity as a local analytical database for portfolio review.
 - The risk indicator output is rule-based reporting, not predictive machine learning.
 - OULAD is anonymized and does not include revenue, payment, lead, or private client data.

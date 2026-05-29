@@ -7,7 +7,7 @@ This project uses the Open University Learning Analytics Dataset (OULAD).
 Official source:
 
 ```text
-https://analyse.kmi.open.ac.uk/open_dataset
+https://analyse.kmi.open.ac.uk/open-dataset
 ```
 
 ## Dataset Purpose
@@ -36,7 +36,15 @@ Raw CSV files should be placed locally in:
 data/raw/
 ```
 
-Raw files are excluded from Git. The repository keeps only the instructions needed to download and place the data.
+Raw files are excluded from Git. This is intentional because the dataset should be downloaded from the official source and the largest source file, `studentVle.csv`, is processed locally in chunks.
+
+The generated SQLite database is also excluded from Git:
+
+```text
+outputs/oulad_pipeline.db
+```
+
+It can be recreated by running the pipeline after the raw CSV files are placed in `data/raw/`.
 
 ## Attribution Note
 
@@ -45,7 +53,6 @@ The dataset belongs to the Open University Learning Analytics Dataset project. T
 ## Privacy and Data Authenticity
 
 - No private client data is used.
-- No dummy data is used as the main dataset.
-- No fake rows are invented.
+- The main dataset is the public OULAD release.
+- No synthetic replacement rows are used in the main dataset.
 - The dataset is anonymized and public.
-

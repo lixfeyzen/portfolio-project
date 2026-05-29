@@ -4,6 +4,10 @@ outputs/*.db
 outputs/*.sqlite
 outputs/*.sqlite3
 __pycache__/
+**/__pycache__/
+*.pyc
 *.log
 .env
-
+.venv/
+.pytest_cache/
+.ruff_cache/

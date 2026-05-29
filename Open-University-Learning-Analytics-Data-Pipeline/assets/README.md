@@ -1,6 +1,7 @@
 # Assets
 
-This folder can hold future exported diagrams, architecture visuals, or approved preview images.
+This folder stores visual evidence used in the project README.
 
-No fake screenshots are included in this project.
+Current asset:
 
+- `sqlite_database_preview.png`: DB Browser for SQLite preview of the generated local analytical database schema.

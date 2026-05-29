@@ -50,7 +50,7 @@ def main() -> None:
             *[f"- {file_name}" for file_name in missing],
             "",
             f"Place all expected OULAD CSV files in: {raw_dir_display}",
-            "Download source: https://analyse.kmi.open.ac.uk/open_dataset",
+            "Download source: https://analyse.kmi.open.ac.uk/open-dataset",
         ]
         if "studentVle.csv" in missing:
             message_lines.append(

@@ -76,11 +76,19 @@ def load_student_vle(conn: sqlite3.Connection) -> int:
     return total_rows
 
 
+def assert_foreign_key_integrity(conn: sqlite3.Connection) -> None:
+    violations = conn.execute("PRAGMA foreign_key_check").fetchall()
+    if violations:
+        raise RuntimeError(f"SQLite foreign key check failed: {violations[:10]}")
+    print("SQLite foreign key check passed.")
+
+
 def main() -> None:
     config.ensure_directories()
     create_tables_sql = (config.SQL_DIR / "create_tables.sql").read_text(encoding="utf-8")
 
     with sqlite3.connect(config.DB_PATH) as conn:
+        conn.execute("PRAGMA foreign_keys = ON;")
         conn.executescript(create_tables_sql)
         conn.commit()
 
@@ -91,6 +99,8 @@ def main() -> None:
 
         loaded_counts["student_vle"] = load_student_vle(conn)
         print(f"student_vle: loaded {loaded_counts['student_vle']:,} rows")
+
+        assert_foreign_key_integrity(conn)
 
         conn.executescript(INDEX_SQL)
         conn.commit()
@@ -103,4 +113,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-

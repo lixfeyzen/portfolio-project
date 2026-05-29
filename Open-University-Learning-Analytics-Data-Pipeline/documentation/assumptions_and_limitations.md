@@ -1,4 +1,4 @@
-# Assumptions and Limitations
+﻿# Assumptions and Limitations
 
 ## Assumptions
 
@@ -16,11 +16,9 @@
 - No lead data exists in this dataset.
 - No private client data is used.
 - SQLite is used for local portfolio simplicity.
-- Airflow and dbt artifacts are documentation-level examples only.
-- BigQuery and Snowflake notes are future enhancement guidance only.
 - `studentVle.csv` is large and should be processed with chunks.
 - Raw data must be downloaded separately and is not committed to Git.
 - Generated database files are not committed to Git.
-- No fake screenshots are included.
+- Dashboard screenshots are not included because no final BI dashboard is part of this repository.
 - This project does not claim deployment.
 

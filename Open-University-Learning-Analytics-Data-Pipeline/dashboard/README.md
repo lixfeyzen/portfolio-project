@@ -1,6 +1,5 @@
 # Dashboard Folder
 
-This folder documents dashboard requirements for the reporting layer.
+This folder documents the dashboard design requirements for the reporting layer.
 
-No fake screenshots or fabricated dashboard exports are included. Future dashboard files can be added after building a real BI report from the generated reporting tables.
-
+The project currently focuses on the data engineering pipeline and BI-ready exported tables. A BI dashboard can be built from the files in `outputs/reporting_tables/`.

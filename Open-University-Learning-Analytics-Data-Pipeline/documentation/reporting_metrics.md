@@ -4,9 +4,9 @@
 
 Count of student-course records in `student_info`.
 
-## Active Registrations
+## Registered Students
 
-Count of student-course records without a withdrawal/unregistration indicator.
+Count of student-course records where `date_registration` is available.
 
 ## Withdrawn Students
 
@@ -20,13 +20,13 @@ Withdrawn students divided by total students for a course presentation.
 
 Students with `Pass` or `Distinction` divided by total students for a course presentation.
 
-## Fail Rate
+## Fail Students
 
-Students with `Fail` divided by total students for a course presentation.
+Count of student-course records where `final_result = 'Fail'`.
 
-## Distinction Rate
+## Distinction Students
 
-Students with `Distinction` divided by total students for a course presentation.
+Count of student-course records where `final_result = 'Distinction'`.
 
 ## Average Assessment Score
 
@@ -51,10 +51,6 @@ Count of distinct relative activity day offsets in `student_vle`.
 ## Unique Sites Visited
 
 Count of distinct `id_site` values visited by a student.
-
-## Assessment Completion Rate
-
-Submitted assessments divided by expected assessment opportunities for the relevant course presentation.
 
 ## Missing Assessment Count
 

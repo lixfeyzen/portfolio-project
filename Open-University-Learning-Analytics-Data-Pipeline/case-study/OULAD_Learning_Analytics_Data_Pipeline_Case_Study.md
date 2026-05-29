@@ -4,7 +4,9 @@
 
 This project is a data engineering portfolio project built with the real public Open University Learning Analytics Dataset (OULAD). It turns raw learning platform CSV files into cleaned, validated, SQLite-loaded, SQL-modeled, and reporting-ready datasets.
 
-The project is designed to show practical entry-level data engineering skills: ingestion checks, chunk processing, data quality validation, SQL modeling, and BI-ready exports.
+The project is designed to show practical data engineering skills: ingestion checks, chunk processing, data quality validation, database loading, SQL modeling, and BI-ready exports.
+
+The business framing is learning analytics reporting: course teams and analysts need trusted registration, assessment, activity, outcome, and student review data before they can build reliable reports.
 
 ## 2. Business Problem
 
@@ -41,6 +43,7 @@ Each step is implemented as a separate script so the workflow is readable, repea
 - SQLite is used for local portfolio simplicity.
 - Raw CSV files are excluded from Git.
 - `studentVle` is processed with chunks to avoid memory issues.
+- SQLite primary keys, foreign keys, and check constraints are used for core integrity controls.
 - OULAD date fields are relative day offsets, not calendar dates.
 - The at-risk indicator is rule-based reporting, not predictive machine learning.
 
@@ -79,15 +82,27 @@ It supports assessment monitoring by exposing score summaries, missing score cou
 
 It supports student support prioritization through rule-based review indicators for low engagement, low score, and missing assessment activity.
 
-## 9. Limitations
+## 9. Data Engineering Value
+
+This project maps to practical data engineering work because it includes:
+
+- raw file intake checks
+- chunk-based processing for a large clickstream table
+- repeatable cleaning and standardization
+- validation before database loading
+- SQL reporting views and analyst-ready exports
+- documentation for source owners and BI users
+
+The runnable proof is the local Python, Pandas, SQLite, and SQL pipeline.
+
+## 10. Limitations
 
 - OULAD does not include payment or revenue data.
 - OULAD does not include lead data.
 - This project does not claim production deployment.
-- SQLite is used locally and is not a production warehouse.
-- Airflow and dbt artifacts are documentation-level examples only.
+- SQLite is used locally and is not a production database platform.
 
-## 10. Skills Demonstrated
+## 11. Skills Demonstrated
 
 - Python ETL
 - chunk processing
@@ -96,3 +111,4 @@ It supports student support prioritization through rule-based review indicators 
 - data quality documentation
 - pipeline documentation
 - reporting-ready data modeling
+- analyst handoff documentation
