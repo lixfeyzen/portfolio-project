@@ -1,0 +1,9 @@
+data/raw/*.csv
+data/processed/*.csv
+outputs/*.db
+outputs/*.sqlite
+outputs/*.sqlite3
+__pycache__/
+*.log
+.env
+
