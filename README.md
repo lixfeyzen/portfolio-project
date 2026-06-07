@@ -72,6 +72,26 @@ The project covers revenue performance, product ranking, customer contribution, 
 
 ---
 
+### F&B Customer Complaint & Service Recovery Management System
+
+**Tools:** System Analysis, ERD, SQL, UAT, Service Recovery Workflow
+
+System analysis case study for complaint triage, SLA tracking, service recovery workflow, ERD, UAT, SQL schema, and developer handoff.
+
+**Project repository:** [View project](./fnb-customer-complaint-service-recovery-system)
+
+---
+
+### Restaurant Inspection Corrective Action Management System
+
+**Tools:** System Analysis, ERD, SQL, UAT, Corrective Action Workflow
+
+System analysis case study using public food inspection data to design a corrective action workflow with PIC assignment, due dates, evidence, QA review, ERD, UAT, and monitoring.
+
+**Project repository:** [View project](./restaurant-inspection-corrective-action-system)
+
+---
+
 ### Claims Leakage Recovery Analytics
 
 **Tools:** Data Analytics, Business Intelligence

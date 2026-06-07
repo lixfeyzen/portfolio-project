@@ -1,0 +1,121 @@
+// Restaurant Inspection Corrective Action Management System
+// Logical data model for dbdiagram.io
+
+Table establishments {
+  establishment_id int [pk]
+  establishment_code varchar [unique]
+  facility_type varchar
+  risk_level varchar
+  area_zip varchar
+  status varchar
+}
+
+Table inspections {
+  inspection_id bigint [pk]
+  establishment_id int
+  inspection_date date
+  inspection_type varchar
+  inspection_result varchar
+  source_system varchar
+  imported_at datetime
+}
+
+Table violation_categories {
+  category_id int [pk]
+  category_name varchar [unique]
+  default_severity varchar
+  default_due_days int
+}
+
+Table violations {
+  violation_id int [pk]
+  inspection_id bigint
+  category_id int
+  source_violation_code varchar
+  violation_summary text
+  severity varchar
+  is_actionable boolean
+}
+
+Table roles {
+  role_id int [pk]
+  role_name varchar [unique]
+  description varchar
+}
+
+Table users {
+  user_id int [pk]
+  role_id int
+  establishment_id int
+  full_name varchar
+  email varchar [unique]
+  status varchar
+}
+
+Table ticket_statuses {
+  status_id int [pk]
+  status_name varchar [unique]
+  status_sequence int
+  is_terminal boolean
+}
+
+Table corrective_action_tickets {
+  ticket_id int [pk]
+  violation_id int [unique]
+  status_id int
+  assigned_to_user_id int
+  assigned_by_user_id int
+  ticket_number varchar [unique]
+  priority varchar
+  due_date date
+  created_at datetime
+  closed_at datetime
+  escalation_flag boolean
+}
+
+Table evidence_files {
+  evidence_id int [pk]
+  ticket_id int
+  submitted_by_user_id int
+  evidence_type varchar
+  file_url varchar
+  evidence_note text
+  submitted_at datetime
+}
+
+Table approval_logs {
+  approval_log_id int [pk]
+  ticket_id int
+  reviewed_by_user_id int
+  review_decision varchar
+  review_note text
+  reviewed_at datetime
+}
+
+Table status_history {
+  history_id int [pk]
+  ticket_id int
+  from_status_id int
+  to_status_id int
+  changed_by_user_id int
+  change_note text
+  changed_at datetime
+}
+
+Ref: inspections.establishment_id > establishments.establishment_id
+Ref: violations.inspection_id > inspections.inspection_id
+Ref: violations.category_id > violation_categories.category_id
+Ref: users.role_id > roles.role_id
+Ref: users.establishment_id > establishments.establishment_id
+Ref: corrective_action_tickets.violation_id > violations.violation_id
+Ref: corrective_action_tickets.status_id > ticket_statuses.status_id
+Ref: corrective_action_tickets.assigned_to_user_id > users.user_id
+Ref: corrective_action_tickets.assigned_by_user_id > users.user_id
+Ref: evidence_files.ticket_id > corrective_action_tickets.ticket_id
+Ref: evidence_files.submitted_by_user_id > users.user_id
+Ref: approval_logs.ticket_id > corrective_action_tickets.ticket_id
+Ref: approval_logs.reviewed_by_user_id > users.user_id
+Ref: status_history.ticket_id > corrective_action_tickets.ticket_id
+Ref: status_history.from_status_id > ticket_statuses.status_id
+Ref: status_history.to_status_id > ticket_statuses.status_id
+Ref: status_history.changed_by_user_id > users.user_id

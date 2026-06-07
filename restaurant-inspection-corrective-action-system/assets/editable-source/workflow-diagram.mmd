@@ -1,0 +1,16 @@
+flowchart TD
+    A[Inspection Data Imported<br/>Actor: System] --> B{Fail / Pass w/ Conditions?}
+    B -- No --> C[Monitor Only<br/>Actor: QA / Management]
+    B -- Yes --> D[Violation Reviewed<br/>Actor: QA]
+    D --> E[Corrective Action Ticket Created<br/>Actor: System / QA]
+    E --> F[PIC & Due Date Assigned<br/>Actor: QA / Area Manager]
+    F --> G[Corrective Action Performed<br/>Actor: Outlet Manager]
+    F -. due date passed .-> H[Overdue / Escalated<br/>Actor: Area Manager]
+    G --> I[Evidence Submitted<br/>Actor: Outlet Manager]
+    I --> J{QA Review Approved?}
+    J -- Yes --> K[Ticket Closed<br/>Actor: QA]
+    J -- No --> L[Rework Required<br/>Actor: Outlet Manager]
+    L --> G
+    C --> M[Status & Repeat Issues Monitored<br/>Actor: Management]
+    H --> M
+    K --> M

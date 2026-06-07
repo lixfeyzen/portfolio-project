@@ -1,0 +1,14 @@
+flowchart TD
+    A([Complaint received]) --> B[Category & severity triage]
+    B --> C[SLA assigned]
+    C --> D[Service recovery ticket created]
+    D --> E[PIC / owner assigned]
+    D -- SLA passed --> F[Overdue / escalated]
+    E --> G[Investigation started]
+    G --> H[Recovery action submitted]
+    H --> I{Manager / QA review}
+    I -- Approved --> J[Closed]
+    I -- Rejected --> K[Rework required]
+    K -- Rework --> G
+    J --> L[Repeat issue monitoring]
+    F --> L

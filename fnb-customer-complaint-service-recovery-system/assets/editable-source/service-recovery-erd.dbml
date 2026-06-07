@@ -1,0 +1,91 @@
+Table outlets {
+  outlet_id int [pk]
+  outlet_code varchar [unique, not null]
+  borough varchar
+  is_active bit
+}
+
+Table complaint_records {
+  complaint_id int [pk]
+  source_request_code varchar
+  outlet_id int [ref: > outlets.outlet_id]
+  created_at datetime
+  source_status varchar
+  ticket_candidate bit
+}
+
+Table complaint_categories {
+  category_id int [pk]
+  category_name varchar [unique, not null]
+  default_owner_team varchar
+}
+
+Table severity_rules {
+  severity_id int [pk]
+  severity_name varchar [unique, not null]
+  sla_hours int
+  escalation_rule varchar
+}
+
+Table users {
+  user_id int [pk]
+  full_name varchar
+  role_name varchar
+  outlet_id int [ref: > outlets.outlet_id]
+  is_active bit
+}
+
+Table service_recovery_tickets {
+  ticket_id int [pk]
+  complaint_id int [unique, ref: > complaint_records.complaint_id]
+  category_id int [ref: > complaint_categories.category_id]
+  severity_id int [ref: > severity_rules.severity_id]
+  assigned_owner_id int [ref: > users.user_id]
+  current_status varchar
+  due_at datetime
+  is_overdue bit
+  is_repeat_issue bit
+}
+
+Table ticket_assignments {
+  assignment_id int [pk]
+  ticket_id int [ref: > service_recovery_tickets.ticket_id]
+  assigned_to_user_id int [ref: > users.user_id]
+  assigned_by_user_id int [ref: > users.user_id]
+}
+
+Table investigation_notes {
+  investigation_id int [pk]
+  ticket_id int [ref: > service_recovery_tickets.ticket_id]
+  created_by_user_id int [ref: > users.user_id]
+  root_cause_note varchar
+}
+
+Table recovery_actions {
+  action_id int [pk]
+  ticket_id int [ref: > service_recovery_tickets.ticket_id]
+  submitted_by_user_id int [ref: > users.user_id]
+  action_note varchar
+  evidence_reference varchar
+}
+
+Table review_decisions {
+  review_id int [pk]
+  ticket_id int [ref: > service_recovery_tickets.ticket_id]
+  reviewed_by_user_id int [ref: > users.user_id]
+  decision varchar
+}
+
+Table ticket_status_history {
+  status_history_id int [pk]
+  ticket_id int [ref: > service_recovery_tickets.ticket_id]
+  status_name varchar
+  changed_by_user_id int [ref: > users.user_id]
+}
+
+Table ticket_escalations {
+  escalation_id int [pk]
+  ticket_id int [ref: > service_recovery_tickets.ticket_id]
+  escalation_reason varchar
+  escalated_to_user_id int [ref: > users.user_id]
+}

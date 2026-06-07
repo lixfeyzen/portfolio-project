@@ -1,0 +1,40 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Corrective Action Workflow">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1800" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="title" value="&lt;b&gt;Corrective Action Workflow&lt;/b&gt;&lt;br&gt;Inspection violation → ticket → PIC → due date → evidence → QA approval → monitoring" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;" vertex="1" parent="1"><mxGeometry x="160" y="20" width="880" height="70" as="geometry"/></mxCell>
+        <mxCell id="n1" value="&lt;b&gt;Inspection Data&lt;br&gt;Imported&lt;/b&gt;&lt;br&gt;Actor: System" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;strokeWidth=2;" vertex="1" parent="1"><mxGeometry x="390" y="130" width="420" height="90" as="geometry"/></mxCell>
+        <mxCell id="d1" value="&lt;b&gt;Fail / Pass w&lt;br&gt;Conditions?&lt;/b&gt;" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1"><mxGeometry x="435" y="260" width="330" height="115" as="geometry"/></mxCell>
+        <mxCell id="n2" value="&lt;b&gt;Monitor Only&lt;/b&gt;&lt;br&gt;Actor: QA / Management" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;strokeWidth=2;" vertex="1" parent="1"><mxGeometry x="55" y="475" width="350" height="86" as="geometry"/></mxCell>
+        <mxCell id="n3" value="&lt;b&gt;Violation&lt;br&gt;Reviewed&lt;/b&gt;&lt;br&gt;Actor: QA" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;strokeWidth=2;" vertex="1" parent="1"><mxGeometry x="590" y="475" width="340" height="90" as="geometry"/></mxCell>
+        <mxCell id="n4" value="&lt;b&gt;Corrective Action&lt;br&gt;Ticket Created&lt;/b&gt;&lt;br&gt;Actor: System / QA" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;strokeWidth=2;" vertex="1" parent="1"><mxGeometry x="590" y="625" width="340" height="90" as="geometry"/></mxCell>
+        <mxCell id="n5" value="&lt;b&gt;PIC &amp;amp; Due Date&lt;br&gt;Assigned&lt;/b&gt;&lt;br&gt;Actor: QA / Area Manager" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;strokeWidth=2;" vertex="1" parent="1"><mxGeometry x="545" y="775" width="430" height="90" as="geometry"/></mxCell>
+        <mxCell id="n6" value="&lt;b&gt;Corrective Action&lt;br&gt;Performed&lt;/b&gt;&lt;br&gt;Actor: Outlet Manager" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;strokeWidth=2;" vertex="1" parent="1"><mxGeometry x="570" y="925" width="380" height="90" as="geometry"/></mxCell>
+        <mxCell id="n7" value="&lt;b&gt;Evidence&lt;br&gt;Submitted&lt;/b&gt;&lt;br&gt;Actor: Outlet Manager" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;strokeWidth=2;" vertex="1" parent="1"><mxGeometry x="395" y="1080" width="340" height="90" as="geometry"/></mxCell>
+        <mxCell id="d2" value="&lt;b&gt;QA Review&lt;br&gt;Approved?&lt;/b&gt;" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1"><mxGeometry x="400" y="1240" width="330" height="115" as="geometry"/></mxCell>
+        <mxCell id="n8" value="&lt;b&gt;Ticket Closed&lt;/b&gt;&lt;br&gt;Actor: QA" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;strokeWidth=2;" vertex="1" parent="1"><mxGeometry x="255" y="1430" width="260" height="80" as="geometry"/></mxCell>
+        <mxCell id="n9" value="&lt;b&gt;Rework Required&lt;/b&gt;&lt;br&gt;Actor: Outlet Manager" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;strokeWidth=2;" vertex="1" parent="1"><mxGeometry x="595" y="1430" width="350" height="80" as="geometry"/></mxCell>
+        <mxCell id="n10" value="&lt;b&gt;Overdue /&lt;br&gt;Escalated&lt;/b&gt;&lt;br&gt;Actor: Area Manager" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;strokeWidth=2;dashed=1;" vertex="1" parent="1"><mxGeometry x="875" y="1045" width="310" height="86" as="geometry"/></mxCell>
+        <mxCell id="n11" value="&lt;b&gt;Status &amp;amp; Repeat Issues&lt;br&gt;Monitored&lt;/b&gt;&lt;br&gt;Actor: Management" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;strokeWidth=2;" vertex="1" parent="1"><mxGeometry x="340" y="1640" width="440" height="90" as="geometry"/></mxCell>
+
+        <mxCell id="e1" value="" style="endArrow=block;html=1;rounded=0;strokeWidth=2;" edge="1" parent="1" source="n1" target="d1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e2" value="No" style="endArrow=block;html=1;rounded=0;strokeWidth=2;" edge="1" parent="1" source="d1" target="n2"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e3" value="Yes" style="endArrow=block;html=1;rounded=0;strokeWidth=2;" edge="1" parent="1" source="d1" target="n3"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e4" value="" style="endArrow=block;html=1;rounded=0;strokeWidth=2;" edge="1" parent="1" source="n3" target="n4"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e5" value="" style="endArrow=block;html=1;rounded=0;strokeWidth=2;" edge="1" parent="1" source="n4" target="n5"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e6" value="" style="endArrow=block;html=1;rounded=0;strokeWidth=2;" edge="1" parent="1" source="n5" target="n6"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e7" value="" style="endArrow=block;html=1;rounded=0;strokeWidth=2;" edge="1" parent="1" source="n6" target="n7"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e8" value="" style="endArrow=block;html=1;rounded=0;strokeWidth=2;" edge="1" parent="1" source="n7" target="d2"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e9" value="Yes" style="endArrow=block;html=1;rounded=0;strokeWidth=2;" edge="1" parent="1" source="d2" target="n8"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e10" value="No" style="endArrow=block;html=1;rounded=0;strokeWidth=2;" edge="1" parent="1" source="d2" target="n9"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e11" value="resubmit" style="endArrow=block;html=1;rounded=0;strokeWidth=2;" edge="1" parent="1" source="n9" target="n6"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e12" value="due date passed" style="endArrow=block;html=1;rounded=0;strokeWidth=2;dashed=1;" edge="1" parent="1" source="n5" target="n10"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e13" value="" style="endArrow=block;html=1;rounded=0;strokeWidth=2;" edge="1" parent="1" source="n8" target="n11"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e14" value="" style="endArrow=block;html=1;rounded=0;strokeWidth=2;" edge="1" parent="1" source="n2" target="n11"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e15" value="" style="endArrow=block;html=1;rounded=0;strokeWidth=2;" edge="1" parent="1" source="n10" target="n11"><mxGeometry relative="1" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
