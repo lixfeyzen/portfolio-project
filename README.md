@@ -1,202 +1,73 @@
-# Data Analytics Portfolio
+# Yohanes Wiliam Hadiprojo
 
-A collection of data analytics, business intelligence, system analysis, and machine learning projects focused on turning raw data and business problems into decision-ready insights.
+**Data Analyst** &nbsp;·&nbsp; SQL · Power BI · Tableau · Python
 
-This portfolio highlights my work across SQL, Power BI, Python, data cleaning, dashboarding, business analysis, system documentation, machine learning, and portfolio documentation.
+Information Systems (Big Data) graduate with a background in finance and risk. I turn messy operational data into decisions, with a focus on **reliability, quality, and recovery analytics** across marketplace, insurance, and service operations. Comfortable owning the full path from raw data to SQL models, dashboards, and a written recommendation.
+
+Jakarta / Tangerang, Indonesia &nbsp;·&nbsp; wiliamyohanes932@gmail.com &nbsp;·&nbsp; [linkedin.com/in/yohaneswiliam](https://linkedin.com/in/yohaneswiliam)
 
 ---
 
 ## Featured Projects
 
 ### Marketplace Reliability & Customer Experience Analytics
+*SQL Server · Power BI · DAX · Data Quality*
 
-**Tools:** SQL Server, Power BI, DAX, Data Quality, Business Intelligence
+Analyzed **99,441 orders** from the Olist Brazilian e-commerce dataset to measure marketplace health beyond revenue. Quantified delivery reliability at **91.89% on-time**, and showed that late deliveries cut the average customer review score from **4.29 to 2.57** — making the cost of delivery failure visible to the business. Delivered a five-page Power BI executive dashboard, a seller risk watchlist, and documented data-quality checks.
 
-Built an end-to-end marketplace analytics workflow using the Olist Brazilian E-Commerce dataset, SQL Server reporting views, and a five-page Power BI dashboard.
+[View project](./Marketplace-Reliability-Customer-Experience-Analytics)
 
-This project focuses on marketplace health, delivery reliability, customer experience, seller risk, payment behavior, and data quality trust.
+### Retail Sales Operations Analytics
+*SQL · Power BI · Data Quality*
 
-**Project focus:**
+End-to-end SQL-to-BI package for retail sales operations: staging and cleaning views, data-quality validation, analysis views, and a Power BI dashboard, supported by a written case study. Demonstrates a repeatable workflow from raw CSV to decision-ready reporting.
 
-- SQL data cleaning and validation
-- Power BI executive dashboard
-- Delivery reliability analysis
-- Customer review and delay analysis
-- Seller risk matrix and watchlist
-- Data quality issue monitoring
-- Business insight and recommendation writing
-
-**Project repository:** [View project](./Marketplace-Reliability-Customer-Experience-Analytics)
-
----
-
-### ProfitHub Gym Operations & Membership Management System
-
-**Tools:** System Analysis, Business Requirements, ERD, Mermaid, API Specification, Test Scenarios
-
-Created a System Analyst portfolio case study for a small-to-medium gym operations system focused on member management, subscription tracking, payment monitoring, class scheduling, and owner dashboard reporting.
-
-This project demonstrates the ability to translate business pain points into structured requirements, user roles, use cases, process flows, ERD, API draft, acceptance criteria, test scenarios, and wireframe notes.
-
-**Project focus:**
-
-- Business and functional requirements
-- User roles and permission mapping
-- Use case and process flow documentation
-- ERD and data model planning
-- API specification draft
-- Acceptance criteria and test scenarios
-- Wireframe notes for core system screens
-
-**Project repository:** [View project](./ProfitHub-Gym-Operations-System-Analysis)
-
----
-
-### Retail Sales & Operations Analytics
-
-**Tools:** SQL Server, Power BI, Data Cleaning, Business Intelligence
-
-Built an end-to-end retail analytics workflow from raw transaction data into SQL reporting views and a three-page Power BI dashboard.
-
-The project covers revenue performance, product ranking, customer contribution, country analysis, cancellation impact, and data quality validation.
-
-**Project focus:**
-
-- SQL data cleaning and validation
-- Executive KPI dashboard
-- Product and customer analysis
-- Cancellation and data quality monitoring
-- Business insight and recommendation writing
-
-**Project repository:** [View project](./Retail-Sales-Operations-Analytics-Portfolio-Package-Final-Updated)
-
----
-
-### F&B Customer Complaint & Service Recovery Management System
-
-**Tools:** System Analysis, ERD, SQL, UAT, Service Recovery Workflow
-
-System analysis case study for complaint triage, SLA tracking, service recovery workflow, ERD, UAT, SQL schema, and developer handoff.
-
-**Project repository:** [View project](./fnb-customer-complaint-service-recovery-system)
-
----
-
-### Restaurant Inspection Corrective Action Management System
-
-**Tools:** System Analysis, ERD, SQL, UAT, Corrective Action Workflow
-
-System analysis case study using public food inspection data to design a corrective action workflow with PIC assignment, due dates, evidence, QA review, ERD, UAT, and monitoring.
-
-**Project repository:** [View project](./restaurant-inspection-corrective-action-system)
-
----
+[View project](./Retail-Sales-Operations-Analytics-Portfolio-Package-Final-Updated)
 
 ### Claims Leakage Recovery Analytics
+*DuckDB · SQL · Power BI*
 
-**Tools:** Data Analytics, Business Intelligence
+Rule-based audit logic over insurance claim records to detect **claims leakage** (payments that should have been reduced or denied) and prioritize recovery by financial impact. Frames the work the way a quality or risk team would: define the rule, flag the deviation, rank by exposure.
 
-Analyzed potential leakage patterns and recovery opportunities in claims-related data.
+[View project](./Claims%20Leakage%20Recovery%20Analytics)
 
-**Project focus:**
+### Open University Learning Analytics — Data Pipeline
+*Python · SQL · SQLite · GitHub Actions (CI)*
 
-- Claims leakage analysis
-- Recovery opportunity identification
-- Business intelligence reporting
-- Operational risk insight
+Reproducible analytics pipeline over the OULAD education dataset: a SQLite reporting warehouse, SQL reporting outputs, and a **GitHub Actions workflow that validates the outputs automatically**. Shows engineering discipline — versioned, testable, and reproducible analysis rather than a one-off notebook.
 
-**Project repository:** [View project](./Claims%20Leakage%20Recovery%20Analytics)
-
----
-
-### Bank Customer Churn Analysis
-
-**Tools:** Python, Machine Learning, Data Analysis
-
-Built a machine learning workflow to analyze customer churn behavior and identify churn risk patterns.
-
-**Project focus:**
-
-- Customer churn analysis
-- Exploratory data analysis
-- Machine learning modeling
-- Risk pattern identification
-
-**Project repository:** [View project](./bank%20customer%20churn%20ml%20analysis)
+[View project](./Open-University-Learning-Analytics-Data-Pipeline)
 
 ---
 
-### California House Price Prediction
+## Systems & Process Analysis
 
-**Tools:** Python, Regression Modeling, Machine Learning
+Business and systems analysis case studies — translating operational problems into structured requirements, workflows, and data models.
 
-Developed a regression model to predict housing prices using structured housing market data.
-
-**Project focus:**
-
-- Regression modeling
-- Feature analysis
-- Model training and evaluation
-- Predictive analytics
-
-**Project repository:** [View project](./california-house-price-ml-prediction)
+- **[F&B Customer Complaint & Service Recovery System](./fnb-customer-complaint-service-recovery-system)** — complaint triage to service-recovery workflow, modeled on NYC 311 complaint structures and ISO 10002 guidelines (SQL · ERD · process design).
+- **[Restaurant Inspection & Corrective Action System](./restaurant-inspection-corrective-action-system)** — inspection findings to corrective-action tracking for multi-outlet operations (SQL · process design).
+- **[ProfitHub — Gym Operations & Membership System](./ProfitHub-Gym-Operations-System-Analysis)** — full system-analyst case study: business requirements, use cases, ERD, API draft, and test scenarios.
 
 ---
 
-## Other Projects
+## Additional Projects
 
-This portfolio also includes additional analytics and machine learning projects, such as:
-
-- Customer churn prioritization framework
-- Global land temperature data visualization
-- Income vs purchasing power regression analysis
-- SentinelOps project package
-
-These projects show additional work across analytics thinking, modeling, visualization, and application-oriented problem solving.
+Exploratory and machine-learning work: customer churn prioritization and prediction (telecom & banking), California housing price regression, income vs. purchasing-power analysis, and a global land-temperature visualization in Tableau. Available in the folders above.
 
 ---
 
-## Skills Demonstrated
+## Technical Skills
 
-- SQL data preparation
-- SQL data cleaning
-- SQL Server workflow design
-- Data quality validation
-- Power BI dashboarding
-- DAX measure creation
-- Business KPI design
-- System analysis documentation
-- Business requirements analysis
-- Functional and non-functional requirements
-- Use case documentation
-- ERD and data model planning
-- API specification drafting
-- Test scenario planning
-- Exploratory data analysis
-- Customer behavior analysis
-- Seller and operational risk analysis
-- Machine learning modeling
-- Business insight generation
-- Portfolio documentation
+| Area | Tools |
+| --- | --- |
+| Querying & Modeling | SQL (T-SQL), data cleaning, reporting views, data-quality checks |
+| Business Intelligence | Power BI (DAX), Tableau, KPI and dashboard design |
+| Programming | Python (pandas), Jupyter |
+| Analysis | Descriptive analytics, segmentation, risk/quality framing, machine learning (regression, classification) |
+| Practice | Reproducible workflows, Git/GitHub, written business recommendations |
 
 ---
 
-## Tools
+## Background
 
-- SQL Server
-- Power BI
-- Python
-- Pandas
-- Scikit-learn
-- Excel
-- GitHub
-- Mermaid
-- Markdown
-
----
-
-## About
-
-I use data analytics and system analysis to understand business performance, identify operational issues, and translate raw data or business problems into practical recommendations.
-
-My projects focus on building analysis and documentation that are not only technically correct, but also useful for decision-making and implementation planning.
+Bachelor of Information Systems (Big Data stream), Universitas Multimedia Nusantara — expected 2026. Prior experience in financial advisory and risk analysis (Prudential, Myle Connect), holder of the AAJI life-insurance agent license, and certified through the Google Data Analytics Professional Certificate. This finance and regulated-industry exposure shapes how I approach analytics: define the rule, measure the deviation, and prioritize by business impact.
